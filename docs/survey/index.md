@@ -15,6 +15,14 @@ Pick the process for the sensor you're running today.
 
     [:octicons-arrow-right-24: Open manual](dualem/index.md)
 
+-   :material-radar: __EM38__
+
+    ---
+
+    EM38 conductivity survey: kit, calibration, rig setup, running the survey, and export.
+
+    [:octicons-arrow-right-24: Open manual](em38/index.md)
+
 -   :material-radioactive: __Gamma__
 
     ---
