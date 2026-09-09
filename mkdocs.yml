@@ -98,6 +98,14 @@ nav:
           - Support: survey/dualem/07-support.md
       - Gamma:
           - survey/gamma/index.md
+          - Introduction: survey/gamma/00-introduction.md
+          - Equipment Required: survey/gamma/01-equipment-needed.md
+          - Getac Setup: survey/gamma/02-getac-setup.md
+          - Gamma Rig Setup: survey/gamma/03-gamma-setup.md
+          - Data Collection & Export: survey/gamma/04-data-collection.md
+          - Packup Procedure: survey/gamma/05-packup.md
+          - Troubleshooting: survey/gamma/06-troubleshooting.md
+          - Support: survey/gamma/07-support.md
   - Grid Sampling:
       - grid/index.md
   - Carbon:
