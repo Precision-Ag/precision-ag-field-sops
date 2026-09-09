@@ -84,22 +84,26 @@ extra:
 # ---------------------------------------------------------------------------
 nav:
   - Home: index.md
-  - Surveying:
-      - surveying/index.md
-      - Introduction: surveying/00-introduction.md
-      - Equipment Required: surveying/01-equipment-needed.md
-      - Equipment Setup (Polaris): surveying/02-setup-polaris.md
-      - Equipment Setup (Ute): surveying/03-setup-ute.md
-      - Survey Setup (T3RRA on the Getac): surveying/04-survey-setup.md
-      - Exporting: surveying/05-exporting.md
-      - Troubleshooting: surveying/06-troubleshooting.md
-      - Support: surveying/07-support.md
+  - Survey:
+      - survey/index.md
+      - DualEM:
+          - survey/dualem/index.md
+          - Introduction: survey/dualem/00-introduction.md
+          - Equipment Required: survey/dualem/01-equipment-needed.md
+          - Equipment Setup (Polaris): survey/dualem/02-setup-polaris.md
+          - Equipment Setup (Ute): survey/dualem/03-setup-ute.md
+          - Survey Setup (T3RRA on the Getac): survey/dualem/04-survey-setup.md
+          - Exporting: survey/dualem/05-exporting.md
+          - Troubleshooting: survey/dualem/06-troubleshooting.md
+          - Support: survey/dualem/07-support.md
+      - Gamma:
+          - survey/gamma/index.md
   - Grid Sampling:
       - grid/index.md
   - Carbon:
       - carbon/index.md
-  - Gamma:
-      - gamma/index.md
+  - Strategics:
+      - strategics/index.md
   - Equipment & Repairs:
       - equipment/index.md
       - Introduction: equipment/00-introduction.md
