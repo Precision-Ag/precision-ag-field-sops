@@ -34,7 +34,9 @@ To stand up a new SOP repo (or a new book here):
 3. **Keep the safety/draft defaults** — every unverified step stays `[CONFIRM]`; mechanical
    or risky procedures carry a `!!! danger "SWMS"` block; pages open with a
    `!!! warning "DRAFT — pending sign-off"` banner until reviewed.
-4. **Use role-based contacts**, never a personal mobile (this site is publicly reachable).
+4. **Real contact details are fine.** The site sits behind auth (Cloudflare Zero Trust today,
+   moving to the PA Microsoft tenant) and is never public, so personal mobiles/emails can be
+   used directly — no role-based-contact workaround needed.
 5. **Validate**: `mkdocs build --strict` must pass with zero warnings before committing.
 
 Each book goes through a review meeting with the people who do the work, and final sign-off,
