@@ -7,47 +7,31 @@ Get the completed survey off the Getac and confirm it has reached the GIS team. 
 follows on from [Survey Setup](04-survey-setup.md).
 
 !!! info "AT A GLANCE"
-    Export as **CSV** with both *All Boundaries* and *Survey Data* ticked, then save
-    into the `PA Survey – General – Deal ID` folder. The files upload to SharePoint
-    automatically, so there is no need to email them.
+    Open **Files → Export**, confirm the point count and CSV path, choose the
+    coordinate system, then **Export Shapefile**. The job folder is synced by OneDrive —
+    there is no manual upload step, but confirm it's actually syncing before you leave.
 
-## 1. Export the data
+## 1. Export the shapefile
 
-The **elevation data** and **boundary data** show a **green tick** when complete.
-Select **Export** in the bottom right.
+Once the survey is stopped, open **Files → Export**.
 
-![Collect screen with green ticks on elevation and boundary data, Export highlighted](img/export-csv-1.png)
-*A green tick on both data sets means you can **Export**.*
+![Export dialog showing the survey CSV, output folder and coordinate system](img/export-dialog.png)
+*Confirm the point count and CSV path, choose the coordinate system
+(defaults to **GDA2020 / MGA Zone 55**), then **Export Shapefile**.*
 
-Select **CSV** and tick **both**:
+`[CONFIRM: screenshot of the export-complete state — "Export Shapefile" clicked and
+the confirmation/progress shown.]`
 
-- [ ] **All Boundaries**
-- [ ] **Survey Data**
+## 2. Confirm it reached the GIS team
 
-Then click **Export**.
+The CSV and shapefile both save into the job's folder under **Survey Data**, which
+OneDrive syncs automatically — there is no separate "send" step like T3RRA's SharePoint
+upload.
 
-![Export dialog with CSV selected and All Boundaries and Survey Data ticked](img/export-csv-2.png)
-*Select **CSV**, tick both *All Boundaries* and *Survey Data*, then **Export**.*
-
-## 2. Confirm and send to SharePoint
-
-This should open your working folder automatically. If it does not, locate
-**`PA Survey – General – Deal ID`** in the left-hand panel of File Explorer, select
-your folder, and click **Select Folder**.
-
-![File Explorer at the PA Survey – General – Deal ID folder with Select Folder highlighted](img/export-confirm-1.png)
-*Save into **PA Survey – General – Deal ID**.*
-
-If you see the confirmation screen, the export was successful.
-
-![Confirmation dialog reading that the data has been exported](img/export-confirm-2.png)
-*The confirmation screen means success.*
-
-!!! tip "TIP: no email needed"
-    The files load directly into **SharePoint**. There is no need to email them. They
-    upload automatically and reach the **GIS team within minutes**.
+`[CONFIRM: exact OneDrive folder path field techs should check, and how to tell from the
+Getac that a sync has actually completed (icon state, "up to date" message, etc).]`
 
 !!! warning "WARNING"
-    Do not leave the field assuming the upload worked if you never saw the confirmation
-    screen. If the export did not land in `PA Survey – General – Deal ID`, see
-    [Troubleshooting](06-troubleshooting.md).
+    Do not leave the field assuming the sync worked if you haven't checked. If the job
+    folder shows a sync-pending icon rather than "up to date", see
+    [Troubleshooting](06-troubleshooting.md) before you pack up.

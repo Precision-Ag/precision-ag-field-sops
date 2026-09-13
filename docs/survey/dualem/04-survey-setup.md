@@ -1,145 +1,90 @@
 ---
-title: Survey Setup (T3RRA on the Getac)
+title: Survey Setup (Subsoil on the Getac)
 ---
-# :material-laptop: Survey Setup (T3RRA on the Getac)
+# :material-laptop: Survey Setup (Subsoil on the Getac)
 
-The full click-by-click for setting up and running a DualEM survey in **T3RRA Survey
-(v2.279)** on the Getac. Exporting is covered in the next chapter,
-[Exporting](05-exporting.md).
+The full click-by-click for setting up and running a DualEM survey in **Subsoil** on the
+Getac. Exporting is covered in the next chapter, [Exporting](05-exporting.md).
 
 !!! info "AT A GLANCE"
-    Set up the job in the Wizard, import and read the boundary, connect GPS and the
-    DualEM, then drive the AB line. Confirm the `$PDLS1` value updates five times per
-    second before you survey.
+    Scan for equipment, load the paddock boundary with Quick Start, press **Start
+    recording**, drive the paddock, then **Hold to stop** when done. Check the scan
+    results before you trust them — a "not found" instrument keeps whatever it was
+    last set to, silently.
 
-## 1. Open T3RRA & start the Wizard
+## 1. Scan for equipment
 
-Open the **T3RRA** application from your desktop, then select the **Wizard** button.
+Open Subsoil (double-click **run.bat**, or your desktop shortcut), then select
+**Setup → Scan for equipment**.
 
-![T3RRA start screen with the Wizard button highlighted](img/t3rra-wizard-1.png)
-*Open T3RRA from the desktop and click **Wizard**.*
+![Scan for Equipment dialog scanning ports for GPS and DualEM](img/gear-search-searching.png)
+*Scanning ports for GPS, DualEM and EM38 — please wait.*
 
-Fill in the pop-up form with the following details, then select **OK**:
+The scan lists what it found on each port, with its evidence, so you don't have to take
+its word for it.
 
-| Field | What to enter |
-| --- | --- |
-| **Grower** | Client name |
-| **Farm** | Deal ID |
-| **Field** | Name of the paddock. If covering multiple paddocks, enter **"Multi Paddock"** |
-| **Project Name** | Leave it. This auto-generates with today's date |
-
-![The Wizard pop-up form with Grower, Farm, Field and Project Name](img/t3rra-wizard-2.png)
-*The Wizard form. Fill it in, then click **OK**.*
-
-## 2. Import the boundary
-
-Select the **Collect** button, then click **Import** to begin importing your boundaries.
-
-![Collect screen with the Import button highlighted](img/import-shapefile-1.png)
-*Click **Collect**, then **Import**.*
-
-Select **.shp** to upload a shapefile.
-
-![Supported-imports list with Shapefile (.shp) highlighted](img/import-shapefile-2.png)
-*Choose **.shp**.*
+![Scan for Equipment dialog showing GPS and DualEM found with evidence](img/gear-search-detected.png)
+*Scan complete — check the assignments, then **Apply**.*
 
 !!! note "NOTE"
-    In future we may also use **.kml / .kmz** files as an alternative. For now, use
-    **.shp**.
+    An instrument the scan does **not** find keeps its existing manual settings. It is
+    not cleared. If GPS or DualEM shows "not found", stop and check cabling and power
+    before continuing — see [Troubleshooting](06-troubleshooting.md).
 
-## 3. Read the boundary
+## 2. Load the paddock boundary
 
-Click the **Read** button.
+Open **Setup**, then select **Quick Start**.
 
-![Shapefile dialog with the Read button highlighted](img/read-boundary-1.png)
-*Click **Read**.*
+![Setup sheet with the Quick Start row highlighted](img/setup-quick-start.png)
+*Setup → **Quick Start** → pick the GIS paddock file.*
 
-In the left-hand panel, **deselect Surface**, then select **Boundary** from the
-dropdown. Click **Import**.
+Pick the paddock's `.shp`, `.kml` or `.kmz` file. The job name, save folder and boundary
+are all set from this one file.
 
-![Import panel with Surface deselected and Boundary selected, boundary shown in the preview](img/read-boundary-2.png)
-*Deselect **Surface**, select **Boundary**, then **Import**.*
+![Map showing the loaded paddock boundary before the survey starts](img/map-with-boundary.png)
+*The boundary loads onto the map with its area shown in the left-hand panel.*
 
-## 4. Set the data type
+## 3. Check before you drive
 
-In the **Data Type** window, select **DualEM 1S**, then click **Start**.
+Before pressing Start, confirm the job name in the header matches the paddock you're in,
+and that **FIX** in the left-hand panel is not stuck on *Waiting for GPS*.
 
-![Data Type window with DualEM 1S selected and Start highlighted](img/data-type-dualem-1.png)
-*Select **DualEM 1S**, then **Start**.*
+![Shell ready to start, with the Start recording button highlighted](img/job-start-preflight.png)
+*Job loaded, boundary in view. Confirm the details, then **Start recording**.*
 
-The boundary loads on screen. Once it has loaded, select **Settings** in the top-right
-corner.
+## 4. Run the survey
 
-![Loaded boundary on screen with the Settings button highlighted](img/data-type-dualem-2.png)
-*Open **Settings** (top-right).*
+Press **Start recording**. The header switches to **RECORDING**, and the left-hand panel
+starts showing live EM and GPS values.
 
-## 5. Connect GPS
+![Shell in RECORDING state with live EM values and a record count](img/lines-logging-coverage.png)
+*Recording. **RECORDS** and **ELAPSED** in the top-right confirm data is landing.*
 
-Go to the **GPS** tab and click the **Scan for GPS** button.
+!!! warning "WARNING: SIMULATED DATA"
+    If the orange **SIMULATED DATA** pill is showing, the file being written is marked
+    as simulated, not real survey data. Confirm your instruments are actually connected
+    before you drive.
 
-![GPS tab with the Scan for GPS button highlighted](img/gps-scan-1.png)
-*Click **Scan for GPS**.*
+### Pause and resume
 
-The port scan displays the COM port your GPS is connected to. Click **Connect**. The
-system selects the correct port automatically.
+Press **Pause** to hold the survey without ending the job — for a gate, a break, or to
+reposition.
 
-![Port scan results with the Connect button highlighted](img/gps-scan-2.png)
-*Click **Connect**. The correct port is selected automatically.*
+![Shell in PAUSED state, with the Resume button highlighted](img/survey-pause.png)
+*Paused. No data is logged while paused.*
 
-## 6. Connect the DualEM & verify data
+Press **Resume** to continue recording into the same file.
 
-How you connect depends on your setup:
+![Shell back in RECORDING state after Resume](img/survey-resume.png)
+*Resumed — recording continues into the same CSV.*
 
-| Setup | How to connect |
-| --- | --- |
-| **Wireless** | The DualEM will **always be on COM Port 20**. Select it and click **Connect**. |
-| **Wired** | Open **Device Manager** to find the correct COM port, update the dropdown, then click **Connect**. |
+## 5. End the job
 
-![Settings window with COM Port 20 selected and Connect highlighted](img/dualem-connect-1.png)
-*Select the port (COM Port 20 wireless) and click **Connect**.*
+When the paddock is finished, **hold** the **Hold to stop** button until it fills. This
+is deliberate — a mistap here costs a re-drive, so a quick tap does nothing.
 
-!!! warning "WARNING: verify the data before you drive"
-    Correct DualEM data shows a `$PDLS1` value updating five times per second. If you
-    do not see `$PDLS1` updating at that rate, the unit is not reading correctly. Stop
-    and fix it before surveying (see [Troubleshooting](06-troubleshooting.md)).
-
-Once confirmed, click **Close**. Your settings save automatically.
-
-![Raw sensor data showing a live $PDLS1 value updating](img/dualem-connect-2.png)
-*A live `$PDLS1` value confirms the DualEM is reading. Then click **Close**.*
-
-## 7. Set the AB line & start
-
-Once you are in position, click the **Start** button. Then open the **Guidance** tab
-at the top of the screen.
-
-![Survey screen with Start highlighted and the Guidance tab open](img/ab-line-1.png)
-*Click **Start**, then open the **Guidance** tab.*
-
-Click **Set** next to **Point A** and begin driving.
-
-!!! note "NOTE"
-    The Guidance window cannot be minimised while you set the AB line. You can move it
-    to the side of the screen.
-
-When you reach **Point B**, click **Set**, then click **Apply**.
-
-![Guidance dialog with Set next to Point A and Point B, and Apply highlighted](img/ab-line-2.png)
-*Set **Point A**, drive to **Point B**, **Set**, then **Apply**.*
-
-## 8. Run the survey
-
-As with **Farmworks**, the navigation light bar is at the top of the screen and your
-AB lines are displayed. A metre value shows how close you are to the line.
-
-![Survey running with the navigation light bar, Stop and Return highlighted](img/survey-run-1.png)
-*Drive the AB lines. When complete, click **Stop**, then **Return**.*
-
-Once your survey is complete, click **Stop**, then click the **Return** button in the
-top right. When prompted, select **Yes** to keep changes to elevation points.
-
-![Prompt to keep changes to elevation points with Yes highlighted](img/survey-run-2.png)
-*Select **Yes** to keep changes to elevation points.*
+![Shell in STOPPED state, data saved](img/end-job.png)
+*Stopped — data saved. The record count and save path are shown top-left.*
 
 ---
 
