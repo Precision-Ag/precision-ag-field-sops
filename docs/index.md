@@ -4,13 +4,13 @@ Pick a manual below, or use the search box (top right) to jump straight to any s
 
 <div class="grid cards" markdown>
 
--   :material-map-marker-path: __Surveying__
+-   :material-map-marker-path: __Survey__
 
     ---
 
-    DualEM + T3RRA soil survey on the Getac: kit, rig setup, running the survey, and export.
+    DualEM and Gamma soil survey on the Getac: kit, rig setup, running the survey, and export.
 
-    [:octicons-arrow-right-24: Open manual](surveying/index.md)
+    [:octicons-arrow-right-24: Open manual](survey/index.md)
 
 -   :material-grid: __Grid Sampling__
 
@@ -28,13 +28,13 @@ Pick a manual below, or use the search box (top right) to jump straight to any s
 
     [:octicons-arrow-right-24: Open manual](carbon/index.md)
 
--   :material-radioactive: __Gamma__
+-   :material-chart-line: __Strategics__
 
     ---
 
-    Gamma radiometric survey procedure.
+    Strategics procedure.
 
-    [:octicons-arrow-right-24: Open manual](gamma/index.md)
+    [:octicons-arrow-right-24: Open manual](strategics/index.md)
 
 -   :material-tools: __Equipment & Repairs__
 
