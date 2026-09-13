@@ -77,8 +77,33 @@ When you add a book, do BOTH in the same change, or the card/nav order silently 
 - Never invent a field procedure. A blank `[CONFIRM]` is safer than a wrong step.
 
 ## Commit messages
-`docs(surveying): add cable connection photos to Polaris setup`
+`docs(dualem): add cable connection photos to Polaris setup`
 Format: `docs(<book>): <what changed>`
+
+## Branch workflow
+
+Each book gets its own branch, so several books can be written and reviewed at the same
+time without one book's half-finished edit blocking another's.
+
+- **One branch per book**, named `feat/<book>-sop` (e.g. `feat/em38-sop`,
+  `feat/grid-sop`). All work on that book — new chapters, photo passes, `[CONFIRM]`
+  clear-outs, wording fixes — happens on its branch.
+- **All testing and review happens on the branch, before it touches `main`.** That
+  means, on the branch:
+  - `mkdocs build --strict` passes with zero warnings.
+  - `mkdocs serve` has been used to click through the book's own pages at least once.
+  - Every `[CONFIRM]` in scope for this pass has either been resolved or deliberately
+    left (not silently dropped).
+- **Merge to `main` only once a book is reviewed and signed off** by the people who do
+  the work (see README → "Replicating this repo" for the review-before-release rule).
+  `main` is the live site — Cloudflare auto-deploys every push to it.
+- Branches don't need to be kept in sync with each other. Two books can diverge for
+  weeks while each is being written; they only need to reconcile at merge time, same as
+  any normal PR against `main`.
+- **Structural branches merge first.** A change that touches shared scaffolding (nav
+  structure, folder layout, a new top-level book stub) — not a single book's content —
+  should land on `main` before the book branches built on top of it merge, otherwise
+  every book branch inherits a stale structure and drifts further at merge time.
 
 ## Local preview (optional)
 `mkdocs serve` then open http://127.0.0.1:8000 — live-reloads as you edit.
