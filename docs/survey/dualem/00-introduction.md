@@ -3,22 +3,22 @@ title: Introduction
 ---
 # :material-book-open-page-variant: Introduction
 
-Set up the DualEM and the T3RRA application to run soil survey jobs in the field. This
-manual is for Precision Ag field techs.
+Set up the DualEM and the **Subsoil** application to run soil survey jobs in the field.
+This manual is for Precision Ag field techs.
 
 !!! info "AT A GLANCE"
-    Gather the kit, set up the rig, run the survey, then export. Exported data reaches
-    the GIS team via SharePoint automatically.
+    Gather the kit, set up the rig, run the survey in Subsoil, then export. The job
+    folder syncs to the GIS team over OneDrive — there is no separate upload step.
 
 ## What this manual covers
 
-This is the field reference for running a DualEM survey with T3RRA Survey (v2.279) on
-the Getac.
+This is the field reference for running a DualEM survey with **Subsoil** on the Getac.
+Subsoil replaces T3RRA as the survey software — same DualEM, same rig, new app.
 
 1. Gather and check your equipment.
 2. Set up the rig on the Polaris or ute.
-3. Set up and run the survey in T3RRA on the Getac.
-4. Export the data and confirm it has reached the GIS team.
+3. Set up and run the survey in Subsoil on the Getac.
+4. Export the data and confirm the job folder is syncing.
 
 ## How to read it
 

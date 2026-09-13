@@ -11,12 +11,12 @@ Who to call when something is not right in the field.
 ## Contact
 
 - **Brandon, 0472 810 174.** First point of contact for any support or clarification on
-  the survey setup or the DualEM and T3RRA workflow.
+  the survey setup or the DualEM and Subsoil workflow.
 
 ## Escalation
 
 `[CONFIRM: escalation path — e.g. after-hours contact, and whether hardware faults
-(DualEM / Emlid / cabling) go to a different contact than software/T3RRA issues.]`
+(DualEM / Emlid / cabling) go to a different contact than software/Subsoil issues.]`
 
 ## Before you call
 
