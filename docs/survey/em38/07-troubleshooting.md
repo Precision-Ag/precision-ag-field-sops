@@ -18,7 +18,16 @@ Quick fixes for the faults that stop an EM38 survey.
 | Vertical reading isn't ~2× the horizontal reading after nulling | Zero not set correctly | Take fresh horizontal/vertical readings, calculate vertical − horizontal, and re-adjust the H dipole control (see [Calibration](04-calibration.md)). |
 | Calibration keeps failing after repeated attempts | Sensor fault, or towing setup not nulled in situ | Stop surveying. Contact support — do not survey on an unreliable null. |
 | GPS not found on scan | Receiver not powered or not connected | Check the Emlid receiver has power and the cable is seated, then re-scan. |
+| **NEXT CAL** reaches zero mid-paddock | Recal window elapsed without a fresh cal line | Stop, drive back to the calibration line (or set a new one), re-null the EM38, then continue — see [Survey Setup](05-survey-setup.md#3-watch-the-recal-countdown). |
+| **RTK LOST** banner shows during a run | GPS dropped from RTK Fixed to a lower-quality fix | Stop driving that line. Check the base station and correction link, and wait for **RTK FIXED** before continuing. |
 | `[CONFIRM: other common field faults Brandon/techs have hit with the EM38 or Subsoil]` | | |
+
+![Scan for Equipment dialog showing all three instruments as not found](img/failure-no-sensor.png)
+*A scan that finds nothing still says "scan complete" — read the assignment list, not
+just whether it finished.*
+
+![Shell showing the RTK LOST banner across the top of the map](img/failure-degraded-gps.png)
+*RTK LOST — position accuracy degraded. The banner stays up until acknowledged.*
 
 !!! warning "WARNING"
     Always re-null after moving to a new location or every four hours of continuous
