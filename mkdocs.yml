@@ -119,6 +119,18 @@ nav:
       - Support: survey/gamma/07-support.md
   - Grid Sampling:
       - grid/index.md
+      - Introduction: grid/00-introduction.md
+      - Safety Checklist: grid/01-safety-checklist.md
+      - Before You Begin: grid/02-before-you-begin.md
+      - Finding the Grid Point: grid/03-finding-the-grid-point.md
+      - Determining Drill Depth: grid/04-drill-depth.md
+      - Collecting the Soil Sample: grid/05-collecting-the-sample.md
+      - Scanning Samples into ESRI: grid/06-scanning-samples.md
+      - Storing & Boxing Samples: grid/07-storage-and-boxing.md
+      - Dispatch: grid/08-dispatch.md
+      - Troubleshooting: grid/09-troubleshooting.md
+      - Support: grid/10-support.md
+      - Quick Reference Checklist: grid/11-quick-reference.md
   - Carbon:
       - carbon/index.md
       - Introduction: carbon/00-introduction.md
