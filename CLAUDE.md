@@ -80,5 +80,33 @@ When you add a book, do BOTH in the same change, or the card/nav order silently 
 `docs(surveying): add cable connection photos to Polaris setup`
 Format: `docs(<book>): <what changed>`
 
+## Branch workflow
+
+Each book gets its own branch, named `feat/<book>-sop` (e.g. `feat/em38-sop`,
+`feat/grid-sop`). All work on that book, new chapters, photo passes, `[CONFIRM]`
+clear-outs, wording fixes, happens on its branch, not on `main`.
+
+- **Work on the book's branch, not `main`.** Check out or create `feat/<book>-sop`
+  before editing that book. A change that touches shared scaffolding (nav structure,
+  folder layout, a new top-level book stub) is the one exception, since every book
+  branch needs it, but that too is a branch of its own, not a direct edit to `main`.
+- **`main` is the live site.** Cloudflare auto-deploys every push to it.
+- **Only merge or push to `main` when Brandon has explicitly confirmed it in that
+  session.** Finishing a book, or even having it look done, is not the same as
+  approval. Ask, don't assume, even if an earlier session was told to push early.
+- **One push to `main` at a time.** If more than one chat is working in this repo at
+  once, each one works in its own git worktree, never the same checkout. Two sessions
+  sharing one working directory race on the same staged changes and commit history,
+  and a `git commit --amend` from one can silently drop the other's uncommitted or
+  just-committed work with no error, exactly what happened on 2026-09-14 (a same-day
+  export-flow fix was dropped this way and had to be redone). Confirm nobody else is
+  about to push before you do.
+- **Never merge a branch into `main` without first diffing it against `main`'s current
+  state.** A book's branch can go stale fast while structural work lands on `main`
+  underneath it, a branch cut before a restructure will *delete* the restructured
+  content if merged blind. Check `git diff --stat main..<branch>` first and look for
+  anything that reads as a deletion of newer work, not just as the branch's intended
+  change.
+
 ## Local preview (optional)
 `mkdocs serve` then open http://127.0.0.1:8000 — live-reloads as you edit.
