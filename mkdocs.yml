@@ -121,6 +121,15 @@ nav:
       - grid/index.md
   - Carbon:
       - carbon/index.md
+      - Introduction: carbon/00-introduction.md
+      - Equipment and App Setup: carbon/01-equipment-and-setup.md
+      - Locating Sampling Points: carbon/02-locating-sampling-points.md
+      - Completing the Survey123 Form: carbon/03-survey123-form.md
+      - Photos and Sign-off: carbon/04-photos-and-signoff.md
+      - QuickCapture Audit Data: carbon/05-quickcapture-audit-data.md
+      - General Requirements: carbon/06-general-requirements.md
+      - Sample Handling and Chain of Custody: carbon/07-sample-handling-and-custody.md
+      - Incidents and Support: carbon/08-incidents-and-support.md
   - Strategics:
       - strategics/index.md
   - Equipment & Repairs:
