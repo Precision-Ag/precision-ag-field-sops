@@ -23,11 +23,11 @@ The ute is already fitted with a DualEM cradle (see [Equipment Required](01-equi
 ## Power
 
 1. `[CONFIRM: where the ute integrated power source connects to the DualEM.]`
-2. `[CONFIRM: fallback when no integrated power — Anderson-to-alligator-clamp battery.]`
+2. `[CONFIRM: fallback when no integrated power, Anderson-to-alligator-clamp battery.]`
 
 ## Cabling
 
-1. `[CONFIRM: which cables run where — Power & Data (DB9), DB9-to-USB, Emlid cable.]`
+1. `[CONFIRM: which cables run where, Power & Data (DB9), DB9-to-USB, Emlid cable.]`
 2. `[CONFIRM: wired vs wireless routing on the ute.]`
 
 ## Pre-drive checklist

@@ -4,7 +4,7 @@ title: Support
 # :material-headset: Support
 
 Who to call when something is not right in the field. Gamma has three separate
-contacts, split by the type of issue — use the right one to get a faster answer.
+contacts, split by the type of issue, use the right one to get a faster answer.
 
 !!! info "AT A GLANCE"
     General enquiries → Henry Birks. GIS issues → Matt Swards. Technical/hardware →

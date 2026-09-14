@@ -12,7 +12,7 @@ survey.
     real steps.
 
 !!! info "AT A GLANCE"
-    `[CONFIRM: the single most important thing for the Polaris setup — e.g. cradle
+    `[CONFIRM: the single most important thing for the Polaris setup, e.g. cradle
     seating / cable routing / power source.]`
 
 ## Mounting the DualEM
@@ -25,12 +25,12 @@ The Polaris is already fitted with a DualEM cradle (see [Equipment Required](01-
 ## Power
 
 1. `[CONFIRM: where the Polaris integrated power source connects to the DualEM.]`
-2. `[CONFIRM: fallback when no integrated power — Anderson-to-alligator-clamp battery,
+2. `[CONFIRM: fallback when no integrated power, Anderson-to-alligator-clamp battery,
    per the equipment list.]`
 
 ## Cabling
 
-1. `[CONFIRM: which cables run where — Power & Data (DB9), DB9-to-USB, Emlid cable.]`
+1. `[CONFIRM: which cables run where, Power & Data (DB9), DB9-to-USB, Emlid cable.]`
 2. `[CONFIRM: wired vs wireless routing on the Polaris.]`
 
 ## Pre-drive checklist

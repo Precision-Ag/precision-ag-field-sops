@@ -18,7 +18,7 @@ field. This manual is for Precision Ag field techs.
 2. Mount the Getac and set up today's job folder.
 3. Mount the crystal pack, console and rover, and connect in RadAssist.
 4. Back up data at the end of each paddock/day and export it to shapefile.
-5. Pack down properly — the crystal pack is fragile and valuable.
+5. Pack down properly, the crystal pack is fragile and valuable.
 
 ## Key requirements
 

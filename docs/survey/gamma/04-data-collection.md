@@ -17,24 +17,24 @@ paddock or day.
 
 When the paddock or day is done, place the USB thumbdrive into the gamma console. Go
 into the **Event Log** at the bottom of RadAssist and check it says **USB HDD
-Detected** — it will then start saving the files.
+Detected**, it will then start saving the files.
 
 ![USB thumbdrive plugged into the gamma console](img/usb-port-gamma-console.png)
 *USB port for the gamma USB, on the console.*
 
 ![Event Log showing USB HDD Detected](img/radassist-event-log-usb-detected.png)
-*USB HDD Detected (no UBL) — the backup has started.*
+*USB HDD Detected (no UBL), the backup has started.*
 
 After waiting 2–3 minutes, the transfer should be complete. The Event Log will say **USB
-HDD Backup Done** and **Unmount Usb** — you can now remove the thumbdrive.
+HDD Backup Done** and **Unmount Usb**, you can now remove the thumbdrive.
 
 ![Event Log showing USB HDD Backup Done and Unmount Usb](img/radassist-event-log-backup-done.png)
-*Backup done and USB unmounted — safe to remove.*
+*Backup done and USB unmounted, safe to remove.*
 
 ## 2. Copy the file to today's job folder
 
 Plug the USB thumbdrive into the Getac. Open its files and check the **RSI** folder for
-a file named `RSX…_UTC_<date and time in UTC>` — you can also check this under **Date
+a file named `RSX…_UTC_<date and time in UTC>`, you can also check this under **Date
 Modified**.
 
 !!! example
@@ -64,7 +64,7 @@ Once loaded, check that **RS-602 System Console** is set as the device type, the
 **Show Loaded Data**.
 
 ![RadAssist showing loaded files, ready to show loaded data](img/radassist-show-loaded-data.png)
-*Files loaded successfully — confirm device type, then Show Loaded Data.*
+*Files loaded successfully, confirm device type, then Show Loaded Data.*
 
 ## 4. Export to shapefile
 
@@ -98,34 +98,34 @@ Press **Save**, then **Next** back in RadAssist.
 ![Exported File Name save dialog](img/radassist-export-filename.png)
 *Save with the date + deal ID + grower name + gamma export naming convention.*
 
-Click **Next** through the remaining wizard pages — SHAPE File Export Options, Virtual
-Detector Configuration, Ignore Errors, and Filter Samples — leaving the defaults unless
+Click **Next** through the remaining wizard pages, SHAPE File Export Options, Virtual
+Detector Configuration, Ignore Errors, and Filter Samples, leaving the defaults unless
 told otherwise, then **Finish**.
 
 <div class="grid cards" markdown>
 
--   ![SHAPE File Export Options — Virtual Detector Selection](img/radassist-shape-export-options.png)
-    Virtual Detector Selection — Next.
+-   ![SHAPE File Export Options, Virtual Detector Selection](img/radassist-shape-export-options.png)
+    Virtual Detector Selection, Next.
 
 -   ![Virtual Detector Configuration](img/radassist-virtual-detector-config.png)
-    Virtual Detector Configuration — Next.
+    Virtual Detector Configuration, Next.
 
 -   ![Ignore Errors dialog](img/radassist-ignore-errors.png)
-    Ignore Errors — Next.
+    Ignore Errors, Next.
 
 -   ![Filter Samples dialog](img/radassist-filter-samples.png)
-    Filter Samples — Finish.
+    Filter Samples, Finish.
 
 </div>
 
 Wait for the export to complete.
 
 ![RadAssist showing the export in progress](img/radassist-export-in-progress.png)
-*Files exporting — wait for this to finish before closing RadAssist.*
+*Files exporting, wait for this to finish before closing RadAssist.*
 
 ## 5. Confirm it synced
 
-That's it — there is no zip and no email. The shapefile is already inside the job's
+That's it, there is no zip and no email. The shapefile is already inside the job's
 **PA Survey - General** folder, which syncs automatically. Before you leave, confirm the
 `.shp`/`.dbf`/`.shx` files are actually there alongside the EM CSV, and that the sync
 status shows "up to date" rather than pending.
@@ -136,7 +136,7 @@ shapefile together, and the OneDrive sync-status icon.]`
 !!! warning "WARNING"
     A file that exists locally is not the same as a file GIS can see. If the sync-status
     icon shows pending rather than "up to date" when you're about to leave, wait for it.
-    Don't leave the field assuming it synced — see [Troubleshooting](06-troubleshooting.md).
+    Don't leave the field assuming it synced, see [Troubleshooting](06-troubleshooting.md).
 
 When the job is finished, move the job folder into the **Completed Jobs** folder on the
 desktop.

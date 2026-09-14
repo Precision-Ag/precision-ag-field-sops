@@ -15,7 +15,7 @@ RadAssist. This follows on from [Getac Setup](02-getac-setup.md).
 ## 1. Mount the crystal pack
 
 Remove the gamma crystal pack from its travel case and bolt it to the front of the
-ute/Polaris using the 10mm bolts, spring washers and nuts — bolts through underneath,
+ute/Polaris using the 10mm bolts, spring washers and nuts, bolts through underneath,
 spring washers and nuts on top. Ensure the **power connection for the crystal pack
 faces the passenger side** of the vehicle.
 
@@ -27,7 +27,7 @@ faces the passenger side** of the vehicle.
 Place the gamma console on the passenger seat and connect it to the car/Polaris battery
 using the black power cable.
 
-!!! note "NOTE — ute routing"
+!!! note "NOTE, ute routing"
     If using a ute, route the cable through the passenger window to avoid it being
     pinched by the door.
 
@@ -94,7 +94,7 @@ Connect the **GAMMA connection (1Hz)** to the gamma console (using the gender ch
 the console) and the **GETAC connection (5Hz)** to the bottom port on the Getac.
 
 !!! warning "WARNING"
-    Route these cables so they cannot get pinched or broken — use tape to secure them if
+    Route these cables so they cannot get pinched or broken, use tape to secure them if
     necessary, and tighten the screws lightly to keep the cord in place.
 
 <div class="grid cards" markdown>
@@ -133,7 +133,7 @@ If everything is set up correctly, RadAssist shows:
 !!! note "NOTE"
     If these three conditions aren't met, the gamma unit may need a few minutes to
     configure. This can happen periodically, and especially after the unit has moved a
-    long distance between jobs. Leave it and check back later — see
+    long distance between jobs. Leave it and check back later, see
     [Troubleshooting](06-troubleshooting.md) if it doesn't resolve.
 
 ## 9. Start surveying
