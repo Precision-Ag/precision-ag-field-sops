@@ -132,6 +132,15 @@ nav:
       - Incidents and Support: carbon/08-incidents-and-support.md
   - Strategics:
       - strategics/index.md
+      - Introduction: strategics/00-introduction.md
+      - Safety Checklist: strategics/01-safety-checklist.md
+      - Equipment Needed: strategics/02-equipment-needed.md
+      - Finding the Sampling Location: strategics/03-finding-the-sampling-location.md
+      - Collecting the Soil Sample: strategics/04-collecting-the-sample.md
+      - Sample Types & Depths: strategics/05-sample-types-and-depths.md
+      - Storage & Dispatch: strategics/06-storage-and-dispatch.md
+      - Support: strategics/07-support.md
+      - Quick Checklist: strategics/08-quick-checklist.md
   - Equipment & Repairs:
       - equipment/index.md
       - Introduction: equipment/00-introduction.md
