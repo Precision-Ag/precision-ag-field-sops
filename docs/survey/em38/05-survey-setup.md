@@ -83,8 +83,8 @@ drive.
 
 ## 4. Set the calibration line
 
-Open the map toolbar. The EM38 gets an extra **Set Cal A / Set Cal B** control that a
-DualEM survey never shows, DualEM self-calibrates, EM38 doesn't.
+Open **Guidance** from the map toolbar. The EM38 gets an extra **Set Cal A / Set Cal B**
+section in there that a DualEM survey never shows, DualEM self-calibrates, EM38 doesn't.
 
 ![Guidance sheet showing the Calibration line section, Set Cal A highlighted](img/calibration-line-section.png)
 *Calibration line is a stretch of ground you drive back to every four hours, not a
@@ -114,12 +114,17 @@ The moment the calibration line is complete, the header shows a **NEXT CAL** cou
 
 ## 5. Set the A-B guide line and drive
 
-Still on the map toolbar, press **Set A** at your first pass, drive to the far end, then
-press **Set B**. Subsoil generates the guide lines and the lightbar starts steering.
+Still on the map toolbar, press **Set A** at your first pass.
 
-`[CONFIRM: screenshot pending, the automated capture script does not yet cover the
-survey A-B line (only the EM38 calibration line). Map toolbar with Set A / Set B
-highlighted, guide lines drawn.]`
+![Map toolbar with Set B showing after Set A is pressed](img/ab-line-set-a.png)
+*Point A dropped. Drive to the far end, then press **Set B**.*
+
+Press **Set B** at the far end. Subsoil generates the guide lines and the lightbar
+starts steering.
+
+![Map with the guide lines drawn and the lightbar reading ON LINE](img/ab-line-complete.png)
+*Line complete, button now reads **New A-B**. The lightbar shows **ON LINE** once
+you're tracking it.*
 
 Follow the lightbar up and down the paddock. **Reset A-B** clears the guide line, but it
 only works in the **lone-A state**, after Set A, before Set B, not once a full line is
