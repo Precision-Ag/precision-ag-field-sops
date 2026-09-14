@@ -9,7 +9,7 @@ title: Storing & Boxing Samples
 - Keep samples out of direct sunlight.
 - Store in a cool area, vehicle shade, or indoors if possible.
 
-`[CONFIRM: photo of boxes stored indoors or in vehicle shade — a generic setup photo,
+`[CONFIRM: photo of boxes stored indoors or in vehicle shade, a generic setup photo,
 no grower-identifiable labels or location visible.]`
 
 ## Boxing grid samples for postage
@@ -37,5 +37,5 @@ no grower-identifiable labels or location visible.]`
 
 1. Seal the large box with tape.
 
-`[CONFIRM: photo of small box + large box layout with labelling examples — mock up with
+`[CONFIRM: photo of small box + large box layout with labelling examples, mock up with
 placeholder text, not a real job's grower/paddock names.]`

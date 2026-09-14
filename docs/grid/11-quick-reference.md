@@ -4,7 +4,7 @@ title: Quick Reference Checklist
 
 # :material-format-list-checks: Quick Reference Checklist
 
-Pocket-guide summary. Use this once you know the full procedure — for first-time steps,
+Pocket-guide summary. Use this once you know the full procedure, for first-time steps,
 use the numbered chapters.
 
 | Stage | Checklist |

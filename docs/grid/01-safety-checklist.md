@@ -9,7 +9,7 @@ review each item below and address any safety issues identified before you start
 
 !!! info "AT A GLANCE"
     Work through every item before you start sampling. If you can't answer yes, fix it
-    or stop and call — see [Support](10-support.md).
+    or stop and call, see [Support](10-support.md).
 
 ## Before you start
 

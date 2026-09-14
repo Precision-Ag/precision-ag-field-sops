@@ -30,6 +30,6 @@ details:
 !!! danger "IMPORTANT"
     Read all notes and instructions on the job before commencing.
 
-`[CONFIRM: photo of the correct sample bag type — do not use a real labelled bag photo,
+`[CONFIRM: photo of the correct sample bag type, do not use a real labelled bag photo,
 grower/paddock details on a bag are grower data and must not go in this repo. Use a
 blank/unlabelled bag or a mock-up with placeholder text instead.]`

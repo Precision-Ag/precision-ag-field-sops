@@ -5,7 +5,7 @@ title: Storage & Dispatch
 
 !!! info "AT A GLANCE"
     Keep samples cold at every stage. Scan into ESRI, box and count twice, then drop off
-    Monday–Thursday only — never Friday, Saturday, or Sunday.
+    Monday–Thursday only, never Friday, Saturday, or Sunday.
 
 ## Sample storage (in the field and prior to dispatch)
 
@@ -64,10 +64,10 @@ docs/strategics/img/ once available.]`
 ## Printing a consignment note
 
 1. Provide the number of boxes and average weight of boxes to the Scheduling Manager.
-   `[CONFIRM: who is the Scheduling Manager — name and contact.]`
+   `[CONFIRM: who is the Scheduling Manager, name and contact.]`
 2. Consignment note labels will be emailed to the technician.
 3. Print adhesive labels via the Labelife App using the label printer.
-4. Adhere labels to boxes — ensure each box has a label attached.
+4. Adhere labels to boxes, ensure each box has a label attached.
 
 ## Dropping off samples
 

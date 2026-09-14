@@ -4,9 +4,9 @@ title: Grid Sampling
 
 # :material-grid: Grid Sampling
 
-*Grid soil sampling — from finding the point to the TNT depot.*
+*Grid soil sampling, from finding the point to the TNT depot.*
 
-!!! warning "DRAFT — pending sign-off"
+!!! warning "DRAFT, pending sign-off"
     This manual is a first pass from the Grid Sampling Pocket Guide. Every step is
     `[CONFIRM]` until it is verified in the review meeting by the people who do the work.
     Do not rely on it in the field yet.

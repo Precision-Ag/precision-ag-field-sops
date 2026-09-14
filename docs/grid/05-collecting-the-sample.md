@@ -40,7 +40,7 @@ title: Collecting the Soil Sample
 
 ## Remember
 
-- Spread the 6 cores representatively across the zone — not all in one place.
+- Spread the 6 cores representatively across the zone, not all in one place.
 - Travel diagonally across the crop rows, never along them.
 - Use water only to clean the corer when needed.
 - Remove any roots/stones/stubble that accumulate in the bucket before putting the

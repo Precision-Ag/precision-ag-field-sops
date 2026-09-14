@@ -6,7 +6,7 @@ title: Support
 Who to call for strategic sampling questions, and how to report a mistake in this
 manual.
 
-!!! warning "DRAFT — pending sign-off"
+!!! warning "DRAFT, pending sign-off"
     Steps are `[CONFIRM]` until confirmed. The contacts below come from the source pocket
     guide and have not been re-verified.
 
@@ -33,4 +33,4 @@ Have these ready. It gets you a faster answer.
 
 !!! note "NOTE"
     Check [Sample Types & Depths](05-sample-types-and-depths.md) first if the question is
-    about which sample type or depth applies — read the job notes before calling.
+    about which sample type or depth applies, read the job notes before calling.

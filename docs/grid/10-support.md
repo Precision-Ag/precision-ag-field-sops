@@ -6,7 +6,7 @@ title: Support
 
 Who to call for grid sampling support or clarification.
 
-!!! warning "DRAFT — pending sign-off"
+!!! warning "DRAFT, pending sign-off"
     Contacts below are from the pocket guide as supplied. `[CONFIRM]` whether these are
     still current and whether they're role-specific (e.g. scheduling vs. technical).
 
@@ -18,12 +18,12 @@ Who to call for grid sampling support or clarification.
 - **Rachel Brooks, 0408 125 676.**
 - **David Johnson, 0477 770 772.**
 
-`[CONFIRM: what each contact covers — e.g. scheduling/logistics vs. technical/QField
-issues — so the right person gets called first.]`
+`[CONFIRM: what each contact covers, e.g. scheduling/logistics vs. technical/QField
+issues, so the right person gets called first.]`
 
 ## Escalation
 
-`[CONFIRM: escalation path — e.g. after-hours contact, and whether it differs from the
+`[CONFIRM: escalation path, e.g. after-hours contact, and whether it differs from the
 Surveying/Equipment books' contact.]`
 
 ## Before you call

@@ -12,16 +12,16 @@ Precision Ag. Follow each step to ensure samples are consistent, clean, and comp
 
 ## What this manual covers
 
-This is a field guide — short, simple, and designed for use on-the-go.
+This is a field guide, short, simple, and designed for use on-the-go.
 
 1. Run the safety checklist before you start.
-2. Prep — label bags and check your kit.
+2. Prep, label bags and check your kit.
 3. Find the sampling location in Field Maps.
 4. Collect the sample to the depths on the job.
 5. Store, scan, box, and dispatch the samples.
 
 `[CONFIRM: source material referred to a separate "Standard Operating Procedure" for
-detailed information. Link it here once located — this pocket guide is the only source
+detailed information. Link it here once located, this pocket guide is the only source
 used to build this manual.]`
 
 ## How to read it
@@ -31,7 +31,7 @@ used to build this manual.]`
 - Anything written as `[CONFIRM: …]` is not yet finalised. Do not guess. Check with
   Brandon first.
 
-!!! warning "DRAFT — rough pass, not reviewed"
+!!! warning "DRAFT, rough pass, not reviewed"
     This manual was populated from the Strategic Sampling Pocket Guide (Rob Allen, 2025)
     as a starting point. It has **not** been checked against current practice and must
     not be used in the field until reviewed and signed off. See the [Support](07-support.md)

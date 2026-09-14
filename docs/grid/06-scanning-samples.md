@@ -16,5 +16,5 @@ title: Scanning Samples into ESRI
 6. Repeat until all samples are scanned and have a green tick next to them.
 7. Sync → Submit → Sync again.
 
-`[CONFIRM: photo of scanning a barcode with the Zebra device — use a blank/test bag,
+`[CONFIRM: photo of scanning a barcode with the Zebra device, use a blank/test bag,
 not one with real grower or paddock details on it.]`

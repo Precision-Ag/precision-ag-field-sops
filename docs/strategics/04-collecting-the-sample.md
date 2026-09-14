@@ -8,7 +8,7 @@ accurately as possible into the target depths.
 
 !!! info "AT A GLANCE"
     Core to the required depth, lay it out on the sampling tray, divide by depth, and
-    bag. 20mm and 38mm cores are divided differently — see below.
+    bag. 20mm and 38mm cores are divided differently, see below.
 
 ## Steps
 
@@ -51,7 +51,7 @@ If the soil level is below the "Depth" line after 5 cores:
       between additional subsamples.
 - [ ] Make a note in Field Maps ("Required extra cores for volume").
       `[CONFIRM: source guide said "QField" here but "Field Maps" elsewhere after a
-      tracked-change rename — confirm this is the same app.]`
+      tracked-change rename, confirm this is the same app.]`
 
 `[CONFIRM: add a photo showing core division for both core sizes to
 docs/strategics/img/ once available.]`

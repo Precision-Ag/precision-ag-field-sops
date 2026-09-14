@@ -7,7 +7,7 @@ Run this checklist before entering a site and/or starting sampling. Carefully re
 item and address any safety issues identified before you pick up the corer.
 
 !!! info "AT A GLANCE"
-    If any item below is a "no," fix it before you sample — not after.
+    If any item below is a "no," fix it before you sample, not after.
 
 ## Before you start
 
