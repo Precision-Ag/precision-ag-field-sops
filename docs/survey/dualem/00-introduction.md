@@ -8,12 +8,12 @@ This manual is for Precision Ag field techs.
 
 !!! info "AT A GLANCE"
     Gather the kit, set up the rig, run the survey in Subsoil, then export. The job
-    folder syncs to the GIS team over OneDrive — there is no separate upload step.
+    folder syncs to the GIS team over OneDrive, there is no separate upload step.
 
 ## What this manual covers
 
 This is the field reference for running a DualEM survey with **Subsoil** on the Getac.
-Subsoil replaces T3RRA as the survey software — same DualEM, same rig, new app.
+Subsoil replaces T3RRA as the survey software, same DualEM, same rig, new app.
 
 1. Gather and check your equipment.
 2. Set up the rig on the Polaris or ute.

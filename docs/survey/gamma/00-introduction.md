@@ -8,8 +8,9 @@ field. This manual is for Precision Ag field techs.
 
 !!! info "AT A GLANCE"
     Gather the kit, mount the crystal pack and console, connect in RadAssist, run the
-    survey, then back up and export. Send the export to GIS by email — it does not
-    upload automatically like the DualEM/EM38 workflow.
+    survey, then back up and export straight into the job's **Survey Data** folder,
+    the same one the EM survey's CSV lands in. No zip, no email. It syncs
+    automatically like the rest of the job.
 
 ## What this manual covers
 
@@ -33,8 +34,10 @@ field. This manual is for Precision Ag field techs.
 !!! warning "WARNING"
     - If conducting an elevation survey, ensure the 12V battery has been charged the
       previous night.
-    - Email the boundaries from Field Service to your Getac before heading out. Download
-      them and place them in the job folder on the desktop.
+    - Confirm the job is staged in **PA Survey - General** by Deal ID before heading out.
+      `[CONFIRM: does gamma now use the same GIS-staged PA Survey - General folder as
+      DualEM/EM38, replacing the old email-the-boundaries step? This line hasn't been
+      re-checked against that change yet, don't assume either way in the field.]`
     - Ensure TeamViewer is downloaded and you have a working LTE connection on the Getac
       before heading out.
 

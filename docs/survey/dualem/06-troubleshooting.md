@@ -15,23 +15,24 @@ field.
 
 | Symptom | Likely cause | Fix |
 | --- | --- | --- |
-| Scan for equipment says GPS/DualEM **not found** | Not powered, cable not seated, or wrong COM port | Check power and cabling, then re-run **Scan for equipment**. An instrument that isn't found keeps its old settings — it is not cleared. |
-| **RTK LOST** banner shows during a run | GPS dropped from RTK Fixed to a lower-quality fix | Stop driving that line. Check the base station and correction link, and wait for **RTK FIXED** before continuing — see the warning below. |
+| Scan for equipment says GPS/DualEM **not found** | Not powered, cable not seated, or wrong COM port | Check power and cabling, then re-run **Scan for equipment**. An instrument that isn't found keeps its old settings, it is not cleared. |
+| **RTK LOST** banner shows during a run | GPS dropped from RTK Fixed to a lower-quality fix | Stop driving that line. Check the base station and correction link, and wait for **RTK FIXED** before continuing, see the warning below. |
 | **Waiting for GPS** never clears | GPS not connected, or wrong port assigned | Re-run **Scan for equipment**; check the Emlid receiver has power and the cable is seated. |
 | Wired DualEM won't connect | Unknown COM port | Open **Device Manager**, find the DualEM's COM port, set it manually, then re-scan. |
 | Boundary won't load via Quick Start | Wrong file type, or a corrupt/empty boundary | Confirm the file is `.shp`, `.kml` or `.kmz` and actually contains a boundary; try **Setup → Load paddock boundary** directly instead. |
 | Job folder shows sync-pending, not "up to date" | OneDrive hasn't finished syncing | Check the Getac has a working connection; wait, then confirm before packing up. See [Exporting](05-exporting.md). |
+| Deal ID isn't in **PA Survey - General** at all | GIS hasn't staged the job yet, or it's under a different/wrong Deal ID | Do not improvise a folder yourself. Contact GIS/support to confirm the job is staged before you start. |
 | `[CONFIRM: other common field faults Brandon/techs have hit]` | | |
 
 ![Scan for Equipment dialog showing all three instruments as not found](img/failure-no-sensor.png)
-*A scan that finds nothing still says "scan complete" — read the assignment list,
+*A scan that finds nothing still says "scan complete", read the assignment list,
 not just whether it finished.*
 
 ![Shell showing the RTK LOST banner across the top of the map](img/failure-degraded-gps.png)
-*RTK LOST — position accuracy degraded. The banner stays up until acknowledged.*
+*RTK LOST, position accuracy degraded. The banner stays up until acknowledged.*
 
 !!! danger "SWMS"
-    Do not continue surveying on a degraded fix believing it is fine — a fix drop looks
+    Do not continue surveying on a degraded fix believing it is fine, a fix drop looks
     exactly like normal operation, and the loss is only obvious at the GIS desk once
     it's too late to re-drive on site. Stop, confirm the base station and correction
     link, and wait for **RTK FIXED** to show again before continuing.

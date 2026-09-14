@@ -19,7 +19,7 @@ field.
 | RadAssist won't connect to the RS-602AG | Ignition off, or cabling not seated | Confirm the vehicle ignition is on, re-check the 9-pin and green ethernet connections, then retry **Connect to Device**. |
 | Event Log doesn't show "USB HDD Detected" | USB not seated, or a different USB port | Reseat the thumbdrive in the gamma console's USB port and re-check the Event Log. |
 | Battery voltage low or elevation survey data missing | 12V battery not charged the night before | Confirm the 12V battery was charged; see [Introduction](00-introduction.md#key-requirements). |
-| Export not sending by email | Poor LTE signal in the field | Try again at your accommodation with better signal. Always confirm it landed in Sent Items before assuming it worked. |
+| Exported shapefile isn't showing as synced | Poor LTE signal, or OneDrive hasn't caught up | Check the Getac has a working connection; wait, then confirm the sync-status icon shows "up to date" before packing up. See [Data Collection & Export](04-data-collection.md#5-confirm-it-synced). |
 | `[CONFIRM: other common field faults techs have hit with the crystal pack, console, or RadAssist]` | | |
 
 !!! warning "WARNING"

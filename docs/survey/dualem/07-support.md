@@ -15,7 +15,7 @@ Who to call when something is not right in the field.
 
 ## Escalation
 
-`[CONFIRM: escalation path — e.g. after-hours contact, and whether hardware faults
+`[CONFIRM: escalation path, e.g. after-hours contact, and whether hardware faults
 (DualEM / Emlid / cabling) go to a different contact than software/Subsoil issues.]`
 
 ## Before you call

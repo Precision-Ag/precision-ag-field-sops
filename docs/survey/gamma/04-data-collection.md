@@ -9,8 +9,9 @@ paddock or day.
 
 !!! info "AT A GLANCE"
     USB backup off the console first, then load and export to shapefile in RadAssist,
-    zip the export, and **email it** — gamma does not upload to SharePoint
-    automatically the way DualEM/EM38 does.
+    straight into the same **Survey Data** folder the EM survey already wrote its CSV
+    into. No zip, no email. We don't run gamma without an EM survey on the same job, so
+    that folder always exists by the time you export.
 
 ## 1. Back up to USB
 
@@ -78,11 +79,16 @@ Under **Data range**, select **All data**, then click **Next**.
 *All data → Next.*
 
 Under **Output format**, select **ESRI Shape File (SHP)**. Under **File Name**, click
-the **…** button and choose the folder on the desktop where today's working files are
-saved. Name the file **date + deal ID + grower name + gamma export**.
+the **…** button and browse to the paddock's **Survey Data** folder, the same
+`Survey Data\<Paddock> - <date>` folder the EM survey's CSV is already sitting in,
+inside the job's folder in **PA Survey - General**. Name the file **date + deal ID +
+grower name + gamma export**.
 
 !!! example
     `13-08 1019999 Test Grower gamma export`
+
+`[CONFIRM: exact folder, same Survey Data\<Paddock> - <date> folder as the CSV, or a
+sibling location inside it? Confirm with GIS before relying on this.]`
 
 ![Export Data Format dialog set to ESRI Shape File](img/radassist-export-format-shp.png)
 *Output format: ESRI Shape File (SHP).*
@@ -117,38 +123,20 @@ Wait for the export to complete.
 ![RadAssist showing the export in progress](img/radassist-export-in-progress.png)
 *Files exporting — wait for this to finish before closing RadAssist.*
 
-## 5. Zip the export
+## 5. Confirm it synced
 
-Open the working files on the desktop. You'll see four files with the extensions
-`.rsvy`, `.dbf`, `.shp` and `.shx`. Highlight the **`.dbf`, `.shp` and `.shx`** files and
-compress them to a ZIP named **date + deal ID + grower name + gamma export**.
+That's it — there is no zip and no email. The shapefile is already inside the job's
+**PA Survey - General** folder, which syncs automatically. Before you leave, confirm the
+`.shp`/`.dbf`/`.shx` files are actually there alongside the EM CSV, and that the sync
+status shows "up to date" rather than pending.
 
-!!! example
-    `13-08 1019999 Test Grower gamma export`
-
-![Highlighting the dbf, shp and shx files to zip](img/export-files-to-zip.png)
-*Select the three files (not the .rsvy) and compress to ZIP.*
-
-![The resulting ZIP file ready to send](img/zip-file-to-send.png)
-*The ZIP file, named and ready.*
-
-## 6. Email the export
-
-Send the ZIP file to the addresses below, subject line **date + deal ID + grower name +
-work type**. Include your EM38 files in the same email if you have them.
-
-| Job location | Send to |
-| --- | --- |
-| VIC, TAS, SA, WA | `h.birks@pag.earth`, `gis@pag.earth` |
-| NSW, QLD, NT | `k.pain@pag.earth`, `gis@pag.earth` |
+`[CONFIRM: screenshot of the Survey Data folder showing both the EM CSV and the gamma
+shapefile together, and the OneDrive sync-status icon.]`
 
 !!! warning "WARNING"
-    Confirm the email actually sent by checking your **Sent Items** folder. If it's not
-    sending, try again at your accommodation where you have better LTE signal — don't
-    leave the field assuming it went through.
-
-![Email confirmed in Sent Items](img/email-sent-items.png)
-*Confirm the email landed in Sent Items before you leave the field.*
+    A file that exists locally is not the same as a file GIS can see. If the sync-status
+    icon shows pending rather than "up to date" when you're about to leave, wait for it.
+    Don't leave the field assuming it synced — see [Troubleshooting](06-troubleshooting.md).
 
 When the job is finished, move the job folder into the **Completed Jobs** folder on the
 desktop.
