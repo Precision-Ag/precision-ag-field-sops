@@ -86,37 +86,37 @@ nav:
   - Home: index.md
   - Survey:
       - survey/index.md
-      - DualEM:
-          - survey/dualem/index.md
-          - Introduction: survey/dualem/00-introduction.md
-          - Equipment Required: survey/dualem/01-equipment-needed.md
-          - Equipment Setup (Polaris): survey/dualem/02-setup-polaris.md
-          - Equipment Setup (Ute): survey/dualem/03-setup-ute.md
-          - Survey Setup (Subsoil on the Getac): survey/dualem/04-survey-setup.md
-          - Exporting: survey/dualem/05-exporting.md
-          - Troubleshooting: survey/dualem/06-troubleshooting.md
-          - Support: survey/dualem/07-support.md
-      - EM38:
-          - survey/em38/index.md
-          - Introduction: survey/em38/00-introduction.md
-          - Equipment Required: survey/em38/01-equipment-needed.md
-          - Equipment Setup (Polaris): survey/em38/02-setup-polaris.md
-          - Equipment Setup (Ute): survey/em38/03-setup-ute.md
-          - Calibration: survey/em38/04-calibration.md
-          - Survey Setup (Subsoil on the Getac): survey/em38/05-survey-setup.md
-          - Exporting: survey/em38/06-exporting.md
-          - Troubleshooting: survey/em38/07-troubleshooting.md
-          - Support: survey/em38/08-support.md
-      - Gamma:
-          - survey/gamma/index.md
-          - Introduction: survey/gamma/00-introduction.md
-          - Equipment Required: survey/gamma/01-equipment-needed.md
-          - Getac Setup: survey/gamma/02-getac-setup.md
-          - Gamma Rig Setup: survey/gamma/03-gamma-setup.md
-          - Data Collection & Export: survey/gamma/04-data-collection.md
-          - Packup Procedure: survey/gamma/05-packup.md
-          - Troubleshooting: survey/gamma/06-troubleshooting.md
-          - Support: survey/gamma/07-support.md
+  - DualEM:
+      - survey/dualem/index.md
+      - Introduction: survey/dualem/00-introduction.md
+      - Equipment Required: survey/dualem/01-equipment-needed.md
+      - Equipment Setup (Polaris): survey/dualem/02-setup-polaris.md
+      - Equipment Setup (Ute): survey/dualem/03-setup-ute.md
+      - Survey Setup (Subsoil on the Getac): survey/dualem/04-survey-setup.md
+      - Exporting: survey/dualem/05-exporting.md
+      - Troubleshooting: survey/dualem/06-troubleshooting.md
+      - Support: survey/dualem/07-support.md
+  - EM38:
+      - survey/em38/index.md
+      - Introduction: survey/em38/00-introduction.md
+      - Equipment Required: survey/em38/01-equipment-needed.md
+      - Equipment Setup (Polaris): survey/em38/02-setup-polaris.md
+      - Equipment Setup (Ute): survey/em38/03-setup-ute.md
+      - Calibration: survey/em38/04-calibration.md
+      - Survey Setup (Subsoil on the Getac): survey/em38/05-survey-setup.md
+      - Exporting: survey/em38/06-exporting.md
+      - Troubleshooting: survey/em38/07-troubleshooting.md
+      - Support: survey/em38/08-support.md
+  - Gamma:
+      - survey/gamma/index.md
+      - Introduction: survey/gamma/00-introduction.md
+      - Equipment Required: survey/gamma/01-equipment-needed.md
+      - Getac Setup: survey/gamma/02-getac-setup.md
+      - Gamma Rig Setup: survey/gamma/03-gamma-setup.md
+      - Data Collection & Export: survey/gamma/04-data-collection.md
+      - Packup Procedure: survey/gamma/05-packup.md
+      - Troubleshooting: survey/gamma/06-troubleshooting.md
+      - Support: survey/gamma/07-support.md
   - Grid Sampling:
       - grid/index.md
   - Carbon:
