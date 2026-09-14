@@ -21,11 +21,11 @@ How to mount, wire and power the EM38 rig on the **ute** before you start a surv
 ## Power
 
 1. `[CONFIRM: where the ute integrated power source connects to the EM38.]`
-2. `[CONFIRM: fallback when no integrated power — Anderson-to-alligator-clamp battery.]`
+2. `[CONFIRM: fallback when no integrated power, Anderson-to-alligator-clamp battery.]`
 
 ## Cabling
 
-1. `[CONFIRM: which cables run where — carrier connect data cable, Emlid cable, and any
+1. `[CONFIRM: which cables run where, carrier connect data cable, Emlid cable, and any
    Getac connection.]`
 2. `[CONFIRM: wired vs wireless routing on the ute.]`
 

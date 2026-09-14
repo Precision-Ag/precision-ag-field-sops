@@ -12,7 +12,7 @@ survey.
     real steps.
 
 !!! info "AT A GLANCE"
-    `[CONFIRM: the single most important thing for the Polaris setup — e.g. carrier
+    `[CONFIRM: the single most important thing for the Polaris setup, e.g. carrier
     seating / cable routing / power source.]`
 
 ## Mounting the EM38
@@ -23,12 +23,12 @@ survey.
 ## Power
 
 1. `[CONFIRM: where the Polaris integrated power source connects to the EM38.]`
-2. `[CONFIRM: fallback when no integrated power — Anderson-to-alligator-clamp battery,
+2. `[CONFIRM: fallback when no integrated power, Anderson-to-alligator-clamp battery,
    per the equipment list.]`
 
 ## Cabling
 
-1. `[CONFIRM: which cables run where — carrier connect data cable, Emlid cable, and any
+1. `[CONFIRM: which cables run where, carrier connect data cable, Emlid cable, and any
    Getac connection.]`
 2. `[CONFIRM: wired vs wireless routing on the Polaris.]`
 

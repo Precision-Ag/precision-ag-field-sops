@@ -13,13 +13,13 @@ missing cable or a flat 9V can cost you a whole job.
 ## Kit list
 
 - [ ] **EM38 unit**
-- [ ] **Calibration block** (the manufacturer-supplied block used to null the sensor — see
+- [ ] **Calibration block** (the manufacturer-supplied block used to null the sensor, see
       [Calibration](04-calibration.md))
-- [ ] **9V batteries** — bring spares. The EM38 runs on a 9V battery in Battery Mode; a flat
+- [ ] **9V batteries**, bring spares. The EM38 runs on a 9V battery in Battery Mode; a flat
       battery reads outside the 720–1500 range and needs replacing before you can calibrate.
-- [ ] **Clean cloth** — for wiping the sensor down before calibration.
-- [ ] **Carrier connect data cable** — connects the EM38 to the towed carrier/sled for survey.
-- [ ] `[CONFIRM: EM38-specific power/data cabling to the Getac — carried over from DualEM as
+- [ ] **Clean cloth**, for wiping the sensor down before calibration.
+- [ ] **Carrier connect data cable**, connects the EM38 to the towed carrier/sled for survey.
+- [ ] `[CONFIRM: EM38-specific power/data cabling to the Getac, carried over from DualEM as
       a Power & Data (DB9) cable + DB9-to-USB cable, not yet confirmed identical for EM38.]`
 - [ ] **Emlid Reach RS2+/RS3 cable** with DB9 connector, plus a **portable charger bank**
       and **USB-C cable**.
@@ -38,4 +38,4 @@ missing cable or a flat 9V can cost you a whole job.
 
 !!! warning "WARNING"
     Remove the 9V battery from the EM38 after each use and reinstall it before your next
-    use — leaving it in flattens it between jobs.
+    use, leaving it in flattens it between jobs.
