@@ -13,7 +13,11 @@ writes down because everyone assumes you already know them.
 
 ## What you will be using
 
-`[CONFIRM: short list of the devices and apps used on the job, e.g. Zebra ET45 tablet, Getac laptop, T3RRA Survey, ArcGIS Field Maps.]`
+- **Getac UX10** laptop, running **Windows 11** and **Subsoil** (the survey software)
+- **Zebra ET45** tablet
+- **SharePoint**, for survey file sync
+
+`[CONFIRM: any other apps or devices used on the job.]`
 
 ## Turning a device on and off
 
@@ -34,8 +38,8 @@ If the screen is stuck and nothing responds, a force restart almost always fixes
 
 - **Zebra ET45:** press and hold the power button for at least **8 seconds**, until
   the Zebra or Android logo appears, then let go.
-- **Getac laptop:** press and hold the power button for about **10 seconds** until it
-  switches off, then press it once to turn it back on. `[CONFIRM: exact Getac model and any model-specific reset step.]`
+- **Getac laptop (UX10):** press and hold the power button for about **10 seconds** until
+  it switches off, then press it once to turn it back on. `[CONFIRM: any UX10-specific reset step, if different from a plain power-button hold.]`
 
 !!! warning "Do this before calling for help"
     A force restart fixes most frozen screens. It does not delete your work.

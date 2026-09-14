@@ -19,9 +19,10 @@ pick up, this page tells you.
 
 ## Getac, the rugged laptop
 
-The Getac runs **T3RRA Survey** for the DualEM survey work.
+The Getac (model **UX10**, running **Windows 11**) runs **Subsoil** for the DualEM survey
+work.
 
-- Used for: `[CONFIRM: T3RRA Survey, data export, anything else.]`
+- Used for: `[CONFIRM: Subsoil survey capture, data export, anything else.]`
 - Not used for: `[CONFIRM]`
 
 ## Your phone

@@ -4,7 +4,8 @@ title: Windows basics
 
 # :material-microsoft-windows: Windows basics
 
-Everything you need to know about Windows to do your job. Nothing more.
+Everything you need to know about Windows to do your job. Nothing more. The Getac runs
+**Windows 11**.
 
 !!! info "AT A GLANCE"
     Files live in folders. Apps live on the taskbar or the desktop. If you are lost,
@@ -25,7 +26,7 @@ The **taskbar** runs along the bottom of the screen. It shows:
 
 ## Opening an app
 
-`[CONFIRM: how T3RRA and the other field apps are opened, e.g. a desktop shortcut, a taskbar pin, or the Start menu.]`
+`[CONFIRM: how Subsoil and the other field apps are opened, e.g. a desktop shortcut, a taskbar pin, or the Start menu.]`
 
 ## Files and folders
 

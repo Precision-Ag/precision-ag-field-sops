@@ -28,15 +28,15 @@ Nothing happens when you tap or click.
 3. Press the power button.
 4. If still nothing, call for help. `[CONFIRM: who to call for a dead device.]`
 
-## T3RRA will not open
+## Subsoil will not open
 
-1. Check the taskbar at the bottom of the screen. T3RRA may already be open.
+1. Check the taskbar at the bottom of the screen. Subsoil may already be open.
 2. If not, open it again from the desktop shortcut.
 3. If it still will not open, restart the Getac and try once more.
 
-`[CONFIRM: any T3RRA-specific recovery step, e.g. a known fix the team uses.]`
+`[CONFIRM: any Subsoil-specific recovery step, e.g. a known fix the team uses.]`
 
-## GPS not connecting in T3RRA
+## GPS not connecting in Subsoil
 
 This is covered in detail in the Surveying manual. See
 [Troubleshooting](../surveying/06-troubleshooting.md).
@@ -66,6 +66,6 @@ When you call, have this ready:
 | Problem | Who to call |
 | --- | --- |
 | Device hardware fault | `[CONFIRM]` |
-| T3RRA or software issue | Brandon, 0472 810 174 |
+| Subsoil or software issue | Brandon, 0472 810 174 |
 | Survey data missing | `[CONFIRM]` |
 | Cannot log in | `[CONFIRM]` |
