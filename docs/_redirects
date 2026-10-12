@@ -1,0 +1,7 @@
+# Old addresses before the section restructure (Cloudflare Pages)
+/grid /sampling/grid/ 301
+/grid/* /sampling/grid/:splat 301
+/strategics /sampling/strategics/ 301
+/strategics/* /sampling/strategics/:splat 301
+/tech-hygiene /software/tech-hygiene/ 301
+/tech-hygiene/* /software/tech-hygiene/:splat 301

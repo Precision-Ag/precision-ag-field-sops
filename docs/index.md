@@ -1,6 +1,6 @@
 # Field Standard Operating Procedures
 
-Pick a manual below, or use the search box (top right) to jump straight to any step, part number or error message.
+Pick a section below, or use the search box (top right) to jump straight to any step, part number or error message.
 
 <div class="grid cards" markdown>
 
@@ -8,17 +8,17 @@ Pick a manual below, or use the search box (top right) to jump straight to any s
 
     ---
 
-    DualEM and Gamma soil survey on the Getac: kit, rig setup, running the survey, and export.
+    DualEM, EM38 and Gamma soil surveys on the Getac: kit, rig setup, running the survey, and export.
 
-    [:octicons-arrow-right-24: Open manual](survey/index.md)
+    [:octicons-arrow-right-24: Open section](survey/index.md)
 
--   :material-grid: __Grid Sampling__
+-   :material-shovel: __Sampling__
 
     ---
 
-    Grid soil sampling procedure.
+    Soil sampling procedures: Grid Sampling and Strategics.
 
-    [:octicons-arrow-right-24: Open manual](grid/index.md)
+    [:octicons-arrow-right-24: Open section](sampling/index.md)
 
 -   :material-leaf: __Carbon__
 
@@ -26,35 +26,27 @@ Pick a manual below, or use the search box (top right) to jump straight to any s
 
     Carbon sampling procedure.
 
-    [:octicons-arrow-right-24: Open manual](carbon/index.md)
-
--   :material-chart-line: __Strategics__
-
-    ---
-
-    Strategics procedure.
-
-    [:octicons-arrow-right-24: Open manual](strategics/index.md)
-
--   :material-tools: __Equipment & Repairs__
-
-    ---
-
-    Mechanical field maintenance — Polaris, generator, power & cabling, survey rig — and the field-fix / home-fix / stop-and-call decision.
-
-    [:octicons-arrow-right-24: Open manual](equipment/index.md)
+    [:octicons-arrow-right-24: Open section](carbon/index.md)
 
 -   :material-application-cog: __Software__
 
     ---
 
-    How to use the apps on your tablet, starting with ArcGIS Field Maps: finding and downloading your job, location sharing, tasks, and sync.
+    How to use the apps and devices: ArcGIS Field Maps and Tech Hygiene.
 
-    [:octicons-arrow-right-24: Open manual](software/index.md)
+    [:octicons-arrow-right-24: Open section](software/index.md)
+
+-   :material-tools: __Equipment & Repairs__
+
+    ---
+
+    Mechanical field maintenance: Polaris, generator, power & cabling, survey rig, and the field-fix / home-fix / stop-and-call decision.
+
+    [:octicons-arrow-right-24: Open section](equipment/index.md)
 
 </div>
 
 !!! info "How these manuals work"
-    Each manual is a "book". Books appear as tabs across the top; chapters are listed
+    Each section is a group of manuals. Sections appear as tabs across the top; the manuals and their chapters are listed
     down the left. Every page shows when it was last updated at the bottom. Found a
-    mistake? Use the feedback form linked in each book's **Support** chapter.
+    mistake? Use the feedback form linked in each manual's **Support** chapter.

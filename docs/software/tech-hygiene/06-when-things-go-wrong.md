@@ -39,7 +39,7 @@ Nothing happens when you tap or click.
 ## GPS not connecting in T3RRA
 
 This is covered in detail in the Surveying manual. See
-[Troubleshooting](../survey/dualem/06-troubleshooting.md).
+[Troubleshooting](../../survey/dualem/06-troubleshooting.md).
 
 ## The survey file is not in SharePoint
 

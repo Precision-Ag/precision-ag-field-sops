@@ -86,51 +86,64 @@ nav:
   - Home: index.md
   - Survey:
       - survey/index.md
-  - DualEM:
-      - survey/dualem/index.md
-      - Introduction: survey/dualem/00-introduction.md
-      - Equipment Required: survey/dualem/01-equipment-needed.md
-      - Equipment Setup (Polaris): survey/dualem/02-setup-polaris.md
-      - Equipment Setup (Ute): survey/dualem/03-setup-ute.md
-      - Survey Setup (Subsoil on the Getac): survey/dualem/04-survey-setup.md
-      - Exporting: survey/dualem/05-exporting.md
-      - Troubleshooting: survey/dualem/06-troubleshooting.md
-      - Support: survey/dualem/07-support.md
-  - EM38:
-      - survey/em38/index.md
-      - Introduction: survey/em38/00-introduction.md
-      - Equipment Required: survey/em38/01-equipment-needed.md
-      - Equipment Setup (Polaris): survey/em38/02-setup-polaris.md
-      - Equipment Setup (Ute): survey/em38/03-setup-ute.md
-      - Calibration: survey/em38/04-calibration.md
-      - Survey Setup (Subsoil on the Getac): survey/em38/05-survey-setup.md
-      - Exporting: survey/em38/06-exporting.md
-      - Troubleshooting: survey/em38/07-troubleshooting.md
-      - Support: survey/em38/08-support.md
-  - Gamma:
-      - survey/gamma/index.md
-      - Introduction: survey/gamma/00-introduction.md
-      - Equipment Required: survey/gamma/01-equipment-needed.md
-      - Getac Setup: survey/gamma/02-getac-setup.md
-      - Gamma Rig Setup: survey/gamma/03-gamma-setup.md
-      - Data Collection & Export: survey/gamma/04-data-collection.md
-      - Packup Procedure: survey/gamma/05-packup.md
-      - Troubleshooting: survey/gamma/06-troubleshooting.md
-      - Support: survey/gamma/07-support.md
-  - Grid Sampling:
-      - grid/index.md
-      - Introduction: grid/00-introduction.md
-      - Safety Checklist: grid/01-safety-checklist.md
-      - Before You Begin: grid/02-before-you-begin.md
-      - Finding the Grid Point: grid/03-finding-the-grid-point.md
-      - Determining Drill Depth: grid/04-drill-depth.md
-      - Collecting the Soil Sample: grid/05-collecting-the-sample.md
-      - Scanning Samples into ESRI: grid/06-scanning-samples.md
-      - Storing & Boxing Samples: grid/07-storage-and-boxing.md
-      - Dispatch: grid/08-dispatch.md
-      - Troubleshooting: grid/09-troubleshooting.md
-      - Support: grid/10-support.md
-      - Quick Reference Checklist: grid/11-quick-reference.md
+      - DualEM:
+          - survey/dualem/index.md
+          - Introduction: survey/dualem/00-introduction.md
+          - Equipment Required: survey/dualem/01-equipment-needed.md
+          - Equipment Setup (Polaris): survey/dualem/02-setup-polaris.md
+          - Equipment Setup (Ute): survey/dualem/03-setup-ute.md
+          - Survey Setup (Subsoil on the Getac): survey/dualem/04-survey-setup.md
+          - Exporting: survey/dualem/05-exporting.md
+          - Troubleshooting: survey/dualem/06-troubleshooting.md
+          - Support: survey/dualem/07-support.md
+      - EM38:
+          - survey/em38/index.md
+          - Introduction: survey/em38/00-introduction.md
+          - Equipment Required: survey/em38/01-equipment-needed.md
+          - Equipment Setup (Polaris): survey/em38/02-setup-polaris.md
+          - Equipment Setup (Ute): survey/em38/03-setup-ute.md
+          - Calibration: survey/em38/04-calibration.md
+          - Survey Setup (Subsoil on the Getac): survey/em38/05-survey-setup.md
+          - Exporting: survey/em38/06-exporting.md
+          - Troubleshooting: survey/em38/07-troubleshooting.md
+          - Support: survey/em38/08-support.md
+      - Gamma:
+          - survey/gamma/index.md
+          - Introduction: survey/gamma/00-introduction.md
+          - Equipment Required: survey/gamma/01-equipment-needed.md
+          - Getac Setup: survey/gamma/02-getac-setup.md
+          - Gamma Rig Setup: survey/gamma/03-gamma-setup.md
+          - Data Collection & Export: survey/gamma/04-data-collection.md
+          - Packup Procedure: survey/gamma/05-packup.md
+          - Troubleshooting: survey/gamma/06-troubleshooting.md
+          - Support: survey/gamma/07-support.md
+  - Sampling:
+      - sampling/index.md
+      - Grid Sampling:
+          - sampling/grid/index.md
+          - Introduction: sampling/grid/00-introduction.md
+          - Safety Checklist: sampling/grid/01-safety-checklist.md
+          - Before You Begin: sampling/grid/02-before-you-begin.md
+          - Finding the Grid Point: sampling/grid/03-finding-the-grid-point.md
+          - Determining Drill Depth: sampling/grid/04-drill-depth.md
+          - Collecting the Soil Sample: sampling/grid/05-collecting-the-sample.md
+          - Scanning Samples into ESRI: sampling/grid/06-scanning-samples.md
+          - Storing & Boxing Samples: sampling/grid/07-storage-and-boxing.md
+          - Dispatch: sampling/grid/08-dispatch.md
+          - Troubleshooting: sampling/grid/09-troubleshooting.md
+          - Support: sampling/grid/10-support.md
+          - Quick Reference Checklist: sampling/grid/11-quick-reference.md
+      - Strategics:
+          - sampling/strategics/index.md
+          - Introduction: sampling/strategics/00-introduction.md
+          - Safety Checklist: sampling/strategics/01-safety-checklist.md
+          - Equipment Needed: sampling/strategics/02-equipment-needed.md
+          - Finding the Sampling Location: sampling/strategics/03-finding-the-sampling-location.md
+          - Collecting the Soil Sample: sampling/strategics/04-collecting-the-sample.md
+          - Sample Types & Depths: sampling/strategics/05-sample-types-and-depths.md
+          - Storage & Dispatch: sampling/strategics/06-storage-and-dispatch.md
+          - Support: sampling/strategics/07-support.md
+          - Quick Checklist: sampling/strategics/08-quick-checklist.md
   - Carbon:
       - carbon/index.md
       - Introduction: carbon/00-introduction.md
@@ -142,37 +155,6 @@ nav:
       - General Requirements: carbon/06-general-requirements.md
       - Sample Handling and Chain of Custody: carbon/07-sample-handling-and-custody.md
       - Incidents and Support: carbon/08-incidents-and-support.md
-  - Strategics:
-      - strategics/index.md
-      - Introduction: strategics/00-introduction.md
-      - Safety Checklist: strategics/01-safety-checklist.md
-      - Equipment Needed: strategics/02-equipment-needed.md
-      - Finding the Sampling Location: strategics/03-finding-the-sampling-location.md
-      - Collecting the Soil Sample: strategics/04-collecting-the-sample.md
-      - Sample Types & Depths: strategics/05-sample-types-and-depths.md
-      - Storage & Dispatch: strategics/06-storage-and-dispatch.md
-      - Support: strategics/07-support.md
-      - Quick Checklist: strategics/08-quick-checklist.md
-  - Equipment & Repairs:
-      - equipment/index.md
-      - Introduction: equipment/00-introduction.md
-      - Your field kit: equipment/01-field-kit.md
-      - Polaris: equipment/02-polaris.md
-      - Generator: equipment/03-generator-cord.md
-      - Power & cabling: equipment/04-power-and-cabling.md
-      - Survey rig (mechanical): equipment/05-survey-rig-mechanical.md
-      - Troubleshooting: equipment/06-troubleshooting.md
-      - Support: equipment/07-support.md
-  - Tech Hygiene:
-      - tech-hygiene/index.md
-      - Getting started: tech-hygiene/00-getting-started.md
-      - Your devices: tech-hygiene/01-devices.md
-      - Zebra ET45: tech-hygiene/02-zebra-et45.md
-      - Getac laptop: tech-hygiene/03-getac.md
-      - Windows basics: tech-hygiene/04-windows-basics.md
-      - Staying connected: tech-hygiene/05-connectivity.md
-      - When things go wrong: tech-hygiene/06-when-things-go-wrong.md
-      - Glossary: tech-hygiene/07-glossary.md
   - Software:
       - software/index.md
       - ArcGIS Field Maps:
@@ -188,3 +170,23 @@ nav:
           - Finish Up at Base: software/fieldmaps/08-finish-up.md
           - Support: software/fieldmaps/09-support.md
           - Quick Checklist: software/fieldmaps/10-quick-checklist.md
+      - Tech Hygiene:
+          - software/tech-hygiene/index.md
+          - Getting started: software/tech-hygiene/00-getting-started.md
+          - Your devices: software/tech-hygiene/01-devices.md
+          - Zebra ET45: software/tech-hygiene/02-zebra-et45.md
+          - Getac laptop: software/tech-hygiene/03-getac.md
+          - Windows basics: software/tech-hygiene/04-windows-basics.md
+          - Staying connected: software/tech-hygiene/05-connectivity.md
+          - When things go wrong: software/tech-hygiene/06-when-things-go-wrong.md
+          - Glossary: software/tech-hygiene/07-glossary.md
+  - Equipment & Repairs:
+      - equipment/index.md
+      - Introduction: equipment/00-introduction.md
+      - Your field kit: equipment/01-field-kit.md
+      - Polaris: equipment/02-polaris.md
+      - Generator: equipment/03-generator-cord.md
+      - Power & cabling: equipment/04-power-and-cabling.md
+      - Survey rig (mechanical): equipment/05-survey-rig-mechanical.md
+      - Troubleshooting: equipment/06-troubleshooting.md
+      - Support: equipment/07-support.md
