@@ -3,70 +3,83 @@ title: Data Collection & Export
 ---
 # :material-database-export: Data Collection & Export
 
-Back up the day's data off the gamma console, then load and export it in RadAssist. This
-follows on from [Gamma Rig Setup](03-gamma-setup.md). Do this at the end of every
-paddock or day.
+End the survey, back up the day's data off the gamma box, then convert and export it in
+RadAssist. This follows on from [Gamma Rig Setup](03-gamma-setup.md). Do this at the end
+of every paddock or day.
 
 !!! info "AT A GLANCE"
-    USB backup off the console first, then load and export to shapefile in RadAssist,
-    straight into the same **Survey Data** folder the EM survey already wrote its CSV
-    into. No zip, no email. We don't run gamma without an EM survey on the same job, so
-    that folder always exists by the time you export.
+    Stop in Subsoil, then USB backup off the gamma box, then load and export to shapefile
+    in RadAssist, into the job's **Gamma** folder. No zip, no email, the folder syncs
+    automatically. The gamma box only holds 24 hours, so never skip the USB backup.
 
-## 1. Back up to USB
+## 1. End the survey in Subsoil
 
-When the paddock or day is done, place the USB thumbdrive into the gamma console. Go
-into the **Event Log** at the bottom of RadAssist and check it says **USB HDD
-Detected**, it will then start saving the files.
+Pull over safely. Tap **Stop** in Subsoil, then tap **Yes** to confirm. The confirmation
+defaults to **No**, so a mistap will not end the survey.
+
+![Subsoil Stop confirmation, Yes or No](img/subsoil-stop-confirm.png)
+*Stop, then Yes. The data recorded so far is already saved.*
+
+## 2. Back up to USB
+
+Put a new USB thumbdrive into the gamma box. The USB automatically pulls the data off
+the gamma box. Go into the **Event Log** at the bottom of RadAssist and check it says
+**USB HDD Detected**. It will then start saving the files.
 
 ![USB thumbdrive plugged into the gamma console](img/usb-port-gamma-console.png)
-*USB port for the gamma USB, on the console.*
+*USB port for the gamma USB, on the gamma box.*
 
 ![Event Log showing USB HDD Detected](img/radassist-event-log-usb-detected.png)
-*USB HDD Detected (no UBL), the backup has started.*
+*USB HDD Detected, the backup has started.*
 
-After waiting 2–3 minutes, the transfer should be complete. The Event Log will say **USB
-HDD Backup Done** and **Unmount Usb**, you can now remove the thumbdrive.
+After waiting 2-3 minutes, the transfer should be complete. The Event Log will say
+**USB HDD Backup Done** and **Unmount Usb**. You can now remove the thumbdrive.
 
 ![Event Log showing USB HDD Backup Done and Unmount Usb](img/radassist-event-log-backup-done.png)
 *Backup done and USB unmounted, safe to remove.*
 
-## 2. Copy the file to today's job folder
+`[CONFIRM: a new USB each survey day, or the same drive reused after the files are copied off?]`
+
+## 3. Copy the file to the job folder
 
 Plug the USB thumbdrive into the Getac. Open its files and check the **RSI** folder for
-a file named `RSX…_UTC_<date and time in UTC>`, you can also check this under **Date
-Modified**.
+a file named `RSX…_UTC_<date and time in UTC>`. You can also check the **Date Modified**
+column.
 
 !!! example
     `RSX272_UTC_20250813_044633` = file from 13 August 2025.
 
-Copy this file into today's job folder on the desktop (see [Getac Setup](02-getac-setup.md)).
-
 ![File Explorer showing the RSX UTC folders on the USB](img/usb-port-gamma-console-with-files.png)
-*Find today's RSX folder by its UTC timestamp.*
+*USB thumbdrive in the Getac, with today's RSX folder.*
 
-![Copying today's file to the job folder on the desktop](img/rsx-folder-copy-source.png)
-*Copy today's file to your job folder on desktop.*
+Copy this file into the job's **Gamma** folder in **PA Survey - General**, into a folder
+named with today's date so each day stays separate.
+
+![Copying today's file to the job folder](img/rsx-folder-copy-source.png)
+*Find today's RSX folder by its UTC timestamp and copy it.*
 
 ![Confirming the file has landed in today's gamma folder](img/rsx-folder-copy-confirm.png)
-*File copied to today's gamma files.*
+*File copied into today's gamma folder.*
 
-## 3. Load the data in RadAssist
+## 4. Load the data in RadAssist
 
 Open RadAssist and click the **Data Processing** tab. Click **Load**, then **Load Raw
-Files Directory**. Navigate to Desktop, find the folder for the current deal, select the
-folder you copied from the USB, and press **OK**.
+Files Directory**. Select the folder you copied from the USB and press **OK**.
 
 ![RadAssist Data Processing tab, Browse For Folder dialog](img/radassist-browse-raw-files-folder.png)
-*Data Processing → Load → browse to the copied RSX folder → OK.*
+*Data Processing, Load, browse to the copied RSX folder, OK.*
 
-Once loaded, check that **RS-602 System Console** is set as the device type, then click
-**Show Loaded Data**.
+If RadAssist warns that a compressed raw file was found, continue. If you have loaded
+this folder before, pick the folder that was already unzipped.
+
+Once loaded, check the Raw File Information window shows the files and samples loaded,
+and that **RS-602 System Console** is set as the device type. Then click **Show Loaded
+Data**.
 
 ![RadAssist showing loaded files, ready to show loaded data](img/radassist-show-loaded-data.png)
-*Files loaded successfully, confirm device type, then Show Loaded Data.*
+*Files loaded successfully, confirm the device type, then Show Loaded Data.*
 
-## 4. Export to shapefile
+## 5. Export to shapefile
 
 Click **Export** in the bottom left.
 
@@ -76,36 +89,37 @@ Click **Export** in the bottom left.
 Under **Data range**, select **All data**, then click **Next**.
 
 ![Exported Data Range dialog with All data selected](img/radassist-export-data-range.png)
-*All data → Next.*
+*All data, then Next.*
 
-Under **Output format**, select **ESRI Shape File (SHP)**. Under **File Name**, click
-the **…** button and browse to the paddock's **Survey Data** folder, the same
-`Survey Data\<Paddock> - <date>` folder the EM survey's CSV is already sitting in,
-inside the job's folder in **PA Survey - General**. Name the file **date + deal ID +
-grower name + gamma export**.
-
-!!! example
-    `13-08 1019999 Test Grower gamma export`
-
-`[CONFIRM: exact folder, same Survey Data\<Paddock> - <date> folder as the CSV, or a
-sibling location inside it? Confirm with GIS before relying on this.]`
+Under **Output format**, select **ESRI Shape File (SHP)**.
 
 ![Export Data Format dialog set to ESRI Shape File](img/radassist-export-format-shp.png)
 *Output format: ESRI Shape File (SHP).*
 
-Press **Save**, then **Next** back in RadAssist.
+Under **File Name**, click the **…** button and browse to the job's **Gamma** folder in
+**PA Survey - General**. Name the file **date + deal ID + grower name + gamma export**.
+
+!!! example
+    `13-08 1019999 Test Grower gamma export`
+
+`[CONFIRM: exact folder. The Gamma folder in the job folder, or a Survey Data location next
+to the EM CSV? Confirm with GIS before relying on this.]`
 
 ![Exported File Name save dialog](img/radassist-export-filename.png)
 *Save with the date + deal ID + grower name + gamma export naming convention.*
 
-Click **Next** through the remaining wizard pages, SHAPE File Export Options, Virtual
-Detector Configuration, Ignore Errors, and Filter Samples, leaving the defaults unless
-told otherwise, then **Finish**.
+Press **Save**, then **Next** back in RadAssist. Click **Next** through the following
+pages, leaving the defaults, then **Finish**:
+
+1. **SHAPE File Export Options**: leave the CSV box empty.
+2. **Virtual Detector Configuration**: leave as it is.
+3. **Ignore Errors**: leave unticked.
+4. **Filter Samples**: leave empty.
 
 <div class="grid cards" markdown>
 
 -   ![SHAPE File Export Options, Virtual Detector Selection](img/radassist-shape-export-options.png)
-    Virtual Detector Selection, Next.
+    SHAPE File Export Options, Next.
 
 -   ![Virtual Detector Configuration](img/radassist-virtual-detector-config.png)
     Virtual Detector Configuration, Next.
@@ -118,28 +132,25 @@ told otherwise, then **Finish**.
 
 </div>
 
-Wait for the export to complete.
+Wait for the export to complete before closing RadAssist.
 
 ![RadAssist showing the export in progress](img/radassist-export-in-progress.png)
 *Files exporting, wait for this to finish before closing RadAssist.*
 
-## 5. Confirm it synced
+To check the export, select the `.shp` file in the **Generated Files** list, click **Open
+Selected File** and choose **Load Shape Files in RadAssist GIS View**.
+
+## 6. Confirm it synced
 
 That's it, there is no zip and no email. The shapefile is already inside the job's
 **PA Survey - General** folder, which syncs automatically. Before you leave, confirm the
-`.shp`/`.dbf`/`.shx` files are actually there alongside the EM CSV, and that the sync
-status shows "up to date" rather than pending.
-
-`[CONFIRM: screenshot of the Survey Data folder showing both the EM CSV and the gamma
-shapefile together, and the OneDrive sync-status icon.]`
+`.shp`, `.dbf` and `.shx` files are actually there, and that the sync status shows "up to
+date" rather than pending.
 
 !!! warning "WARNING"
     A file that exists locally is not the same as a file GIS can see. If the sync-status
     icon shows pending rather than "up to date" when you're about to leave, wait for it.
     Don't leave the field assuming it synced, see [Troubleshooting](06-troubleshooting.md).
-
-When the job is finished, move the job folder into the **Completed Jobs** folder on the
-desktop.
 
 ---
 

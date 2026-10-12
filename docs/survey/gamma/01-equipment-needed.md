@@ -7,8 +7,10 @@ Before heading out, make sure you have the following kit. Everything is organise
 box, pack against each list and check nothing has been left behind.
 
 !!! info "AT A GLANCE"
-    Five boxes: Getac, Gamma console unit, Gamma crystal pack (its own case), and the
-    Rover case. The crystal pack travels separately from everything else.
+    Boxes: Getac, gamma console (the gamma box), crystal pack (its own case), and the
+    rover case. The crystal pack travels separately from everything else. Bring the
+    Starlink, cable ties or tape, and a second GPS as a base station if there is no CORS
+    coverage.
 
 ## Getac box
 
@@ -17,43 +19,52 @@ box, pack against each list and check nothing has been left behind.
 - [ ] Getac ball mount
 - [ ] Wall charger
 - [ ] 12V car/Polaris charger
-- [ ] 9-pin female → USB A male cord
 
 ![Getac box contents laid out and labelled](img/equipment-getac-box.png)
-*Getac box: 12V charger, wall charger, 9-pin-to-USB cord, Getac in its cradle, and the ball mount.*
+*Getac box: 12V charger, wall charger, Getac in its cradle, and the ball mount.*
 
-## Gamma console unit box
+## Gamma console unit box (the gamma box)
 
 - [ ] Gamma console
-- [ ] Green RJ45 cable
+- [ ] Green data cable (gamma box to the Getac cradle)
+      `[CONFIRM: green RJ45 cable, or a DB9 cable as in the field notes?]`
 - [ ] 9-pin gender changer
-- [ ] Black power cable (Anderson → gamma console plug), **short**
-- [ ] Black power cable (Anderson → gamma console plug), **long**
-- [ ] Grey cable (gamma crystal pack → gamma console)
+- [ ] Black power cable (Anderson to gamma console plug), **short**
+- [ ] Black power cable (Anderson to gamma console plug), **long**
+- [ ] Grey cable (gamma crystal pack to gamma console)
 - [ ] USB thumbdrive, **plus a backup** in case of failure
 - [ ] 10mm bolts, nuts and spring washers
 - [ ] Tool to tighten bolts (adjustable wrench, socket spanner, etc.)
 
 ![Gamma console box contents laid out and labelled](img/equipment-gamma-console-box.png)
-*Console, USB + 9-pin gender changer, 10mm hardware, tools, and the four cables: long and
-short power, grey (crystal pack), and green (RJ45).*
+*Console, USB and 9-pin gender changer, 10mm hardware, tools, and the cables: long and
+short power, grey (crystal pack), and green (data).*
 
 ## Gamma crystal pack travel case
 
-- [ ] Gamma crystal pack, **kept in its own case, separate from everything else, to
-      avoid damage**
+- [ ] Gamma crystal pack (Radiation Solutions RSX-1), **kept in its own case, separate
+      from everything else, to avoid damage**
+- [ ] Mounting bracket and clips
+      `[CONFIRM: bracket contents, and whether it travels in this case or the console box.]`
 
 ![Gamma crystal pack in its travel case](img/equipment-crystal-pack-case.png)
-*The crystal pack (Radiation Solutions RSX-1) in its dedicated travel case.*
+*The crystal pack in its dedicated travel case.*
 
 ## Rover case
 
-- [ ] Ag Leader rover, with Anderson plug, 1Hz cable and 5Hz cable
-- [ ] Antenna
+- [ ] GPS rover, **Ag Leader or Emlid**, with its power cable and antenna
+- [ ] Emlid only: portable charger bank and USB-C cable
+- [ ] **Second GPS configured as a base station**, only if there is no CORS coverage at the job
 
 ![Ag Leader rover with attached cables and antenna](img/equipment-rover-case.png)
-*Rover with its cables attached, and the antenna.*
+*Ag Leader rover with its cables attached, and the antenna.*
+
+## Also bring
+
+- [ ] **Starlink**
+- [ ] Cable ties, tape or velcro, for securing cables
+- [ ] 12V battery (elevation surveys only, charged the night before)
 
 !!! danger "SWMS"
-    Minimise shock to the gamma crystal pack at all times, it is extremely valuable and
-    fragile. Never drive with it unmounted.
+    Minimise shock to the gamma crystal pack at all times, it is worth over $100,000 and
+    is fragile. Never drive with it unmounted or unsecured.

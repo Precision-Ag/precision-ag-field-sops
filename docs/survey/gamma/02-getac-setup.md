@@ -3,12 +3,14 @@ title: Getac Setup
 ---
 # :material-laptop: Getac Setup
 
-Mount the Getac and set up today's job folder before you start rigging the gamma
+Mount the Getac and find today's job folder before you start rigging the gamma
 equipment.
 
 !!! info "AT A GLANCE"
-    Plug power into the **cradle**, not the Getac directly, plugging into the Getac
-    means later connections won't function. Keep each day's files in their own subfolder.
+    Plug power into the **cradle**, not the Getac directly. An unpowered cradle will not
+    pass on the gamma data, and plugging into the Getac means later connections won't
+    function. GIS has already staged your job folder in SharePoint, so you don't create
+    one.
 
 ## 1. Mount and power the Getac
 
@@ -18,7 +20,7 @@ cradle** on the other.
 
 !!! warning "WARNING, wrong plug breaks later connections"
     Do not plug the power cable into the Getac directly. If you do, the cable
-    connections you make later (GPS, gamma console) won't function.
+    connections you make later (the gamma box data cable) won't function.
 
 <div class="grid cards" markdown>
 
@@ -35,19 +37,23 @@ cradle** on the other.
 
 Turn on the Getac and log in.
 
-## 2. Set up today's job folder
+## 2. Find the job folder
 
-Create a folder on the desktop named with the **deal ID and grower name**, if not
-already there. This is the working space for all files in this job.
+On the desktop is a shortcut to **PA Survey - General**. Open it and find your job's
+folder by **Deal ID**. GIS has already put everything you need in there before you
+left:
 
-Inside it, create a subfolder for **today's date and the survey data type** (Gamma or
-EM38). Keep each day of surveying separate, mixing days' files together causes
-confusion later.
+- the paddock **boundary** file (.kml or .kmz)
+- the working folders for the job
+- a **Gamma** folder, for the gamma files
 
-![Job folder and Completed Jobs folder on the Getac desktop](img/getac-desktop-job-folder.png)
-*Example: `1010199 T & J Bingley`, with a `Completed Jobs` folder alongside it for
-finished work.*
+If the folder, the boundary or the gamma folder is missing, contact GIS. Do not create
+your own.
+
+!!! note "NOTE"
+    Keep each survey day's gamma files in their own folder, named with the date. Mixing
+    days together causes confusion later.
 
 ---
 
-Next: [Gamma Rig Setup](03-gamma-setup.md). Mount the crystal pack, console, and rover.
+Next: [Gamma Rig Setup](03-gamma-setup.md). Mount the crystal pack, gamma box and GPS.
