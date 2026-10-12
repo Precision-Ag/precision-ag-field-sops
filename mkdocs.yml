@@ -173,3 +173,18 @@ nav:
       - Staying connected: tech-hygiene/05-connectivity.md
       - When things go wrong: tech-hygiene/06-when-things-go-wrong.md
       - Glossary: tech-hygiene/07-glossary.md
+  - Software:
+      - software/index.md
+      - ArcGIS Field Maps:
+          - software/fieldmaps/index.md
+          - Introduction: software/fieldmaps/00-introduction.md
+          - Download Your Job Before Leaving: software/fieldmaps/01-download-before-leaving.md
+          - Open the Job on Site: software/fieldmaps/02-open-the-job.md
+          - Find Your Tasks: software/fieldmaps/03-find-your-tasks.md
+          - Navigate to a Point: software/fieldmaps/04-navigate-to-a-point.md
+          - Layers and Tracks: software/fieldmaps/05-layers-and-tracks.md
+          - Work Each Point: software/fieldmaps/06-work-each-point.md
+          - Updates and Sync: software/fieldmaps/07-updates-and-sync.md
+          - Finish Up at Base: software/fieldmaps/08-finish-up.md
+          - Support: software/fieldmaps/09-support.md
+          - Quick Checklist: software/fieldmaps/10-quick-checklist.md
