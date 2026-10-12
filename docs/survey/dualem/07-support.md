@@ -15,8 +15,9 @@ Who to call when something is not right in the field.
 
 ## Escalation
 
-`[CONFIRM: escalation path, e.g. after-hours contact, and whether hardware faults
-(DualEM / Emlid / cabling) go to a different contact than software/Subsoil issues.]`
+- **Equipment malfunction** (DualEM, GPS, cabling): David Johnson, 0477 770 772.
+- **Systems support** (Subsoil, the Getac): Brandon, 0472 810 174.
+- Gamma has its own contacts, see the Gamma book.
 
 ## Before you call
 

@@ -16,7 +16,7 @@ This is the field reference for running a DualEM survey with **Subsoil** on the 
 Subsoil replaces T3RRA as the survey software, same DualEM, same rig, new app.
 
 1. Gather and check your equipment.
-2. Set up the rig on the Polaris or ute.
+2. Set up the rig on the Polaris or ute: cradle, cables, power and GPS.
 3. Set up and run the survey in Subsoil on the Getac.
 4. Export the data and confirm the job folder is syncing.
 

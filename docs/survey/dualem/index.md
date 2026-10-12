@@ -13,8 +13,8 @@ with an AT A GLANCE box, then the detailed steps.
 
 0. :material-book-open-page-variant: [Introduction](00-introduction.md). What this survey is and how to read the manual.
 1. :material-package-variant-closed: [Equipment Required](01-equipment-needed.md). The full kit list. Print it and pack against it.
-2. :material-motorbike: [Equipment Setup (Polaris)](02-setup-polaris.md). Mounting and wiring the rig on the Polaris (draft).
-3. :material-truck: [Equipment Setup (Ute)](03-setup-ute.md). Mounting and wiring the rig on the ute (draft).
+2. :material-motorbike: [Equipment Setup (Polaris)](02-setup-polaris.md). Mounting and wiring the rig on the Polaris.
+3. :material-truck: [Equipment Setup (Ute)](03-setup-ute.md). Mounting and wiring the rig on the ute.
 4. :material-laptop: [Survey Setup (Subsoil on the Getac)](04-survey-setup.md). The full click-by-click in Subsoil.
 5. :material-database-export: [Exporting](05-exporting.md). Getting clean data off the Getac and to the GIS team.
 6. :material-wrench: [Troubleshooting](06-troubleshooting.md). Symptom, likely cause, fix.
