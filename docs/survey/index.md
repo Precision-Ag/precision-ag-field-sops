@@ -1,5 +1,8 @@
 ---
 title: Survey
+hide:
+  - navigation
+  - toc
 ---
 # :material-map-marker-path: Survey
 

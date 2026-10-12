@@ -1,5 +1,8 @@
 ---
 title: Sampling
+hide:
+  - navigation
+  - toc
 ---
 
 # :material-shovel: Sampling

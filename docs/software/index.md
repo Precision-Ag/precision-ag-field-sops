@@ -1,5 +1,8 @@
 ---
 title: Software
+hide:
+  - navigation
+  - toc
 ---
 
 # :material-application-cog: Software

@@ -47,3 +47,11 @@
 .md-typeset img { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 6px; }
 .md-header__button.md-logo img, .md-header__button.md-logo svg { border: 0; height: 1.5rem; width: auto; }
 .md-typeset .twemoji svg { border: 0; }
+
+/* Section pages (Survey, Sampling, Software) have no sidebar. Inside a manual the
+   desktop sidebar lists only that manual's chapters, not its sibling manuals. */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary .md-nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested:not(.md-nav__item--active) {
+    display: none;
+  }
+}
