@@ -45,4 +45,4 @@ Steps for a particular job type (grid, survey, strategics, testing) are in that 
 | My tracks | A layer that draws the path you have travelled |
 | Layers | The list of map content you can switch on and off |
 | Gate pin | A marker for the easiest way into a paddock |
-| Status | Where a point is up to: Unassigned, Assigned, In Progress, Completed or Missed |
+| Status | Where a point is up to: Unassigned, Assigned, In Progress, Completed or Missed. Its colour on the map shows which (blue assigned, yellow in progress, green completed, red missed) |

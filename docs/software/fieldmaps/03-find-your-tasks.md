@@ -32,7 +32,7 @@ Tap the filter button next to the search box.
 | Completed | Points already done |
 | Missed | Points that were not reached |
 
-All points are set to **In Progress** before you arrive, so there is nothing to change at the start.
+`[CONFIRM: are points In Progress or Assigned when you start? Points are set to In Progress, but on the test map most show blue, which means assigned and not started.]`
 
 ![The task filter menu](img/11-task-filter-menu.png){ width="300" }
 *The filter menu.*
