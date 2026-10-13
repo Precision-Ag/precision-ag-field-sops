@@ -20,9 +20,9 @@ How to mount, wire and power the DualEM rig on the **ute** before you start a su
 Your ute is already fitted with a DualEM cradle (see [Equipment Required](01-equipment-needed.md)).
 
 
-1. Place the DualEM in the cradle. `[CONFIRM: arrow direction. The current SOP says arrow facing down. Older notes said arrow up.]`
+1. Place the DualEM in the cradle. The arrow faces **down**.
 2. Keep metal away from the DualEM, including from your hands, wrists, pockets and neck
-   while you handle it. `[CONFIRM: how far the DualEM must be from metal. The current SOP says 0.5m, older notes said 1.5m.]`
+   while you handle it. The DualEM must be **1.5m from any metal**.
 3. Secure the DualEM in the cradle so it cannot move, with its cable coming out of the
    cradle.
 
@@ -72,15 +72,17 @@ Both **Emlid** and **Ag Leader** GPS units are used.
    USB end into any USB port on the Getac.
 4. Secure the GPS cable with cable ties, tape or velcro so it cannot snag.
 
-- **Emlid:** it connects to the **CORS network** to get its corrections. Check it shows
-  connected before you start.
-  `[CONFIRM: how the Emlid reaches the CORS network in the field (Starlink or a hotspot) and
-  what the tech checks to see it is connected.]`
-- **No CORS coverage:** you need a **second GPS configured as a base station**.
-  `[CONFIRM: how the base station is set up, who configures it, and whether the Ag Leader
-  uses CORS or the base.]`
+- **Emlid:** it reaches the **CORS network** for its corrections. About 90% of jobs are
+  inside CORS coverage. Check the green **RTK FIX** shows in Subsoil before you start. If
+  you lose contact with CORS, contact Brandon.
+- **Elevation survey outside CORS:** you need a **base station**. Set up another Emlid or
+  an Ag Leader as the base and give it a power source. Put it on a clear high point. It
+  connects to the rover by **LoRa** to provide the elevation. A base station is only
+  needed for elevation.
+  `[CONFIRM: the base station setup steps, and how the Ag Leader gets its corrections.]`
 
-When you survey, the green **RTK FIX** in Subsoil confirms the GPS has its corrections.
+Bring a **Starlink** when doing any surveying. LTE works in a pinch, but it is very slow
+and drops out.
 
 ## Pre-drive checklist
 
@@ -89,5 +91,6 @@ When you survey, the green **RTK FIX** in Subsoil confirms the GPS has its corre
 - [ ] Power connected
 - [ ] DualEM cable connected to the Getac
 - [ ] GPS on the roof, switched on, cable connected and secured
-- [ ] CORS coverage checked, or the second GPS packed as a base station
+- [ ] Starlink packed
+- [ ] Within CORS coverage, or a base station packed for an elevation survey
 - [ ] Allowed the DualEM time to boot (and self-calibrate if required)

@@ -9,8 +9,8 @@ missing cable can cost you a whole job.
 !!! info "AT A GLANCE"
     DualEM unit, power and data cables (DB9), DB9-to-USB cables, a GPS (Emlid or Ag
     Leader) with its cable, cable ties or tape for securing cables, a power source for
-    the DualEM, and the Getac. If there is no CORS coverage, bring a second GPS as a
-    base station.
+    the DualEM, and the Getac. Bring a Starlink. For an elevation survey outside CORS
+    coverage, bring a second GPS as a base station.
 
 ![Survey equipment laid out and numbered 1–8](img/equipment-numbered.png)
 *The full survey kit, numbered to match the list below.*
@@ -29,8 +29,11 @@ missing cable can cost you a whole job.
 - [ ] **Getac computer** or other approved surveying device
 - [ ] **Cable ties, tape or velcro**, for securing cables to the cradle. Cables break
       easily on brush.
-- [ ] **Second GPS configured as a base station**, only if there is no CORS coverage at
-      the job. An Emlid gets its corrections from the CORS network.
+- [ ] **Starlink**. LTE works in a pinch but is very slow and drops out, so take a Starlink
+      when doing any surveying.
+- [ ] **Second GPS (another Emlid or an Ag Leader) as a base station**, with a power source.
+      Only for an **elevation survey** outside CORS coverage. An Emlid reaches the CORS
+      network for its corrections, and about 90% of jobs are inside it.
 
 !!! note "NOTE"
     Your ute or Polaris is already fitted with a DualEM cradle. You do not need to
