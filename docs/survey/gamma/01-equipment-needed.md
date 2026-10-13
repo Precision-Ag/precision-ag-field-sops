@@ -26,18 +26,18 @@ box, pack against each list and check nothing has been left behind.
 ## Gamma console unit box (the gamma box)
 
 - [ ] Gamma console
-- [ ] Green data cable (RJ45, Cat 6 type, gamma box to the Getac cradle)
+- [ ] RJ45 or Cat 6 data cable (gamma box to the Getac cradle)
 - [ ] 9-pin gender changer
 - [ ] Black power cable (Anderson to gamma console plug), **short**
 - [ ] Black power cable (Anderson to gamma console plug), **long**
 - [ ] Grey cable (gamma crystal pack to gamma console)
-- [ ] USB thumbdrive, **plus a backup** in case of failure
+- [ ] USB thumbdrive, **plus a backup** in case of failure, **formatted to FAT32**
 - [ ] 10mm bolts, nuts and spring washers
 - [ ] Tool to tighten bolts (adjustable wrench, socket spanner, etc.)
 
 ![Gamma console box contents laid out and labelled](img/equipment-gamma-console-box.png)
 *Console, USB and 9-pin gender changer, 10mm hardware, tools, and the cables: long and
-short power, grey (crystal pack), and green (data).*
+short power, grey (crystal pack), and the data cable.*
 
 ## Gamma crystal pack travel case
 
@@ -54,17 +54,17 @@ short power, grey (crystal pack), and green (data).*
 - [ ] GPS rover, **Ag Leader or Emlid**, with its power cable and antenna
 - [ ] Emlid only: portable charger bank and USB-C cable
 - [ ] **Second GPS (another Emlid or an Ag Leader) configured as a base station**, with a
-      power source. Only needed for an **elevation survey** outside CORS coverage
+      power source. Needed if you are using an **Ag Leader** or there is **no CORS coverage**
 
 ![Ag Leader rover with attached cables and antenna](img/equipment-rover-case.png)
 *Ag Leader rover with its cables attached, and the antenna.*
 
 ## Also bring
 
-- [ ] **Starlink**. LTE works in a pinch but is very slow and drops out.
+- [ ] **Starlink**. You will need it for remote support. LTE works in a pinch but is very
+      slow and drops out.
 - [ ] Cable ties, tape or velcro, for securing cables
 - [ ] 12V battery (elevation surveys only, charged the night before)
 
 !!! danger "SWMS"
-    Minimise shock to the gamma crystal pack at all times, it is worth over $100,000 and
-    is fragile. Never drive with it unmounted or unsecured.
+    Minimise shock to the gamma crystal pack at all times, it is fragile. Never drive with it unmounted or unsecured.

@@ -3,8 +3,8 @@ title: Getac Setup
 ---
 # :material-laptop: Getac Setup
 
-Mount the Getac and find today's job folder before you start rigging the gamma
-equipment.
+Mount the Getac and find the job folder in SharePoint before you start rigging the
+gamma equipment.
 
 !!! info "AT A GLANCE"
     Plug power into the **cradle**, not the Getac directly. An unpowered cradle will not
@@ -49,6 +49,14 @@ left:
 
 If the folder, the boundary or the gamma folder is missing, contact GIS. Do not create
 your own.
+
+!!! warning "TO BE AMENDED"
+    The old step of creating a desktop folder with the Deal ID and grower name, and a
+    subfolder for each day, is no longer done. The job folder is now in SharePoint, at
+    **PA Survey - General**, then the **Deal ID** folder, then **Gamma**.
+    `[CONFIRM: the exact folder names GIS creates inside the Deal ID folder, and whether
+    each survey day still gets its own dated subfolder. Amend this chapter once GIS
+    confirms.]`
 
 !!! note "NOTE"
     Keep each survey day's gamma files in their own folder, named with the date. Mixing

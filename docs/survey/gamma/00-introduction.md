@@ -35,8 +35,8 @@ records over itself, so the data must be copied off to a USB after **every** sur
 ## Key requirements
 
 !!! danger "SWMS"
-    - **Minimise shock to the gamma crystal pack.** It is worth over $100,000. Repairs go
-      to Canada and take about six months.
+    - **Minimise shock to the gamma crystal pack.** It is fragile. Repairs go to Canada
+      and take about six months.
     - **Pack up all equipment at the end of each day** into its boxes to avoid damage
       in transit.
     - **Do not drive with the gamma crystal pack unmounted or unsecured.**
@@ -49,10 +49,11 @@ records over itself, so the data must be copied off to a USB after **every** sur
     - Confirm the job is staged in **PA Survey - General** by Deal ID before heading out,
       including the **gamma folder**. GIS prepares the boundary, folders and files. If
       anything is missing, contact GIS. Do not create your own.
-    - Bring the **Starlink**. LTE works in a pinch, but it is very slow and drops out, so
-      take a Starlink when doing any surveying.
-    - About 90% of jobs are inside the **CORS network**. If you are doing an **elevation
-      survey** outside it, you need a second GPS set up as a base station. See
+    - Bring the **Starlink**. You will need it for remote support. All support staff have
+      TeamViewer access and can get onto the Getac remotely. LTE works in a pinch, but it is
+      very slow and drops out, so take a Starlink when doing any surveying.
+    - About 90% of jobs are inside the **CORS network**. If you are using an **Ag Leader**,
+      or there is no CORS coverage, you need a second GPS set up as a base station. See
       [Gamma Rig Setup](03-gamma-setup.md#5-gps-and-corrections).
 
 ## How to read it

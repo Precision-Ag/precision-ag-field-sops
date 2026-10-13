@@ -7,7 +7,7 @@ Pack down the gamma rig properly at the end of the job. This follows on from
 [Data Collection & Export](04-data-collection.md).
 
 !!! danger "SWMS"
-    The gamma crystal pack is worth over $100,000 and is fragile. Handle it carefully and
+    The gamma crystal pack is fragile. Handle it carefully and
     always return it to its own case, never leave it mounted or loose in transit.
 
 ## Steps
@@ -18,7 +18,8 @@ Pack down the gamma rig properly at the end of the job. This follows on from
       - [ ] Gamma crystal pack
       - [ ] Gamma box
       - [ ] Rover
-2. Shut down the Getac and confirm all files have been saved.
+2. Allow 10 minutes for the Getac to sync, then shut it down and confirm all files have
+   been saved.
 3. Remove the bolts from the gamma crystal pack and carefully put it back into its
    travel case. Then remove the bracket. Put the nuts and bolts in the box with the
    gamma box.

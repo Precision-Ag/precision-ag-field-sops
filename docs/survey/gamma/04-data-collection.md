@@ -38,8 +38,8 @@ After waiting 2-3 minutes, the transfer should be complete. The Event Log will s
 ![Event Log showing USB HDD Backup Done and Unmount Usb](img/radassist-event-log-backup-done.png)
 *Backup done and USB unmounted, safe to remove.*
 
-The USB thumbdrive is reused. Once you have uploaded the files and confirmed they are
-there, empty the USB.
+The USB thumbdrive must be **formatted to FAT32**. It is reused. Once you have uploaded
+the files and confirmed they are there, empty the USB.
 
 ## 3. Copy the file to the job folder
 

@@ -15,7 +15,7 @@ RadAssist, and setting up Subsoil for guidance. This follows on from
     surveying.
 
 !!! danger "SWMS"
-    The crystal pack is worth over $100,000. Do not drop it or knock it. Carry it with
+    The crystal pack is fragile. Do not drop it or knock it. Carry it with
     both hands and keep it in its own case until it is time to mount it.
 
 ## 1. Mount the bracket and crystal pack
@@ -70,17 +70,17 @@ through the passenger window on a ute to avoid pinching.
 
 ## 4. Connect the Getac
 
-Plug the **green data cable** into the bottom of the Getac cradle on one end and the
-gamma box on the other. This is an RJ45 (Cat 6 type) cable. It is where the gamma data,
-and the GPS signal, reach the Getac.
+Plug the **RJ45 (Cat 6) data cable** into the bottom of the Getac cradle on one end and
+the gamma box on the other. It is where the gamma data, and the GPS signal, reach the
+Getac.
 
 <div class="grid cards" markdown>
 
 -   ![Green cable plugged into the Getac cradle](img/green-cable-getac-plug.png)
-    Green cable into the Getac cradle.
+    Data cable into the Getac cradle.
 
 -   ![Green cable plugged into the gamma console](img/green-cable-console-plug.png)
-    Green cable into the gamma box.
+    Data cable into the gamma box.
 
 </div>
 
@@ -120,11 +120,12 @@ GPS goes into the Getac. The data cable then carries the GPS signal across to Su
 - **Emlid:** it reaches the **CORS network** for its corrections. About 90% of jobs are
   inside CORS coverage. Check the green **RTK FIX** shows before you start. If you lose
   contact with CORS, contact Brandon.
-- **Elevation survey outside CORS:** you need a **base station**. Set up another Emlid or
+- **Ag Leader, or no CORS coverage:** you need a **base station**. Set up another Emlid or
   an Ag Leader as the base and give it a power source. Put it on a clear high point. It
-  connects to the rover by **LoRa** to provide the elevation. A base station is only
-  needed for elevation.
-  `[CONFIRM: the base station setup steps, and how the Ag Leader gets its corrections.]`
+  connects to the rover by **LoRa** to provide the elevation.
+  `[CONFIRM: the base station setup steps. An earlier note said a base station is only
+  needed for elevation surveys, the SOP now says when using an Ag Leader or when there is no
+  CORS coverage.]`
 
 ## 6. Connect in RadAssist
 
