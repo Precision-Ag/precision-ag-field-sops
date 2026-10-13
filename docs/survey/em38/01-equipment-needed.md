@@ -29,8 +29,11 @@ missing cable or a flat 9V can cost you a whole job.
 - [ ] **Getac computer** or other approved surveying device
 - [ ] **Cable ties, tape or velcro**, for securing cables to the cradle. Cables break
       easily on brush.
-- [ ] **Second GPS configured as a base station**, only if there is no CORS coverage at
-      the job. An Emlid gets its corrections from the CORS network.
+- [ ] **Starlink**. LTE works in a pinch but is very slow and drops out, so take a Starlink
+      when doing any surveying.
+- [ ] **Second GPS (another Emlid or an Ag Leader) as a base station**, with a power source.
+      Only for an **elevation survey** outside CORS coverage. An Emlid reaches the CORS
+      network for its corrections, and about 90% of jobs are inside it.
 
 !!! note "NOTE"
     Your ute or Polaris is already fitted with an EM cradle, the EM38 and the DualEM both

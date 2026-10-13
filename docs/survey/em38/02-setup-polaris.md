@@ -31,7 +31,7 @@ plausible but are wrong.
 Your Polaris is already fitted with a EM38 cradle (see [Equipment Required](01-equipment-needed.md)).
 
 
-1. Place the EM38 in the cradle. `[CONFIRM: does the EM38 have an orientation requirement in the cradle?]`
+1. Place the EM38 in the cradle. The EM38 sits **upright** in the cradle.
 2. Keep metal away from the EM38, including from your hands, wrists, pockets and neck
    while you handle it. Calibrate with the whole rig attached, see [Calibration](04-calibration.md).
 3. Secure the EM38 in the cradle so it cannot move, with its cable coming out of the
@@ -81,15 +81,17 @@ Both **Emlid** and **Ag Leader** GPS units are used.
    USB end into any USB port on the Getac.
 4. Secure the GPS cable with cable ties, tape or velcro so it cannot snag.
 
-- **Emlid:** it connects to the **CORS network** to get its corrections. Check it shows
-  connected before you start.
-  `[CONFIRM: how the Emlid reaches the CORS network in the field (Starlink or a hotspot) and
-  what the tech checks to see it is connected.]`
-- **No CORS coverage:** you need a **second GPS configured as a base station**.
-  `[CONFIRM: how the base station is set up, who configures it, and whether the Ag Leader
-  uses CORS or the base.]`
+- **Emlid:** it reaches the **CORS network** for its corrections. About 90% of jobs are
+  inside CORS coverage. Check the green **RTK FIX** shows in Subsoil before you start. If
+  you lose contact with CORS, contact Brandon.
+- **Elevation survey outside CORS:** you need a **base station**. Set up another Emlid or
+  an Ag Leader as the base and give it a power source. Put it on a clear high point. It
+  connects to the rover by **LoRa** to provide the elevation. A base station is only
+  needed for elevation.
+  `[CONFIRM: the base station setup steps, and how the Ag Leader gets its corrections.]`
 
-When you survey, the green **RTK FIX** in Subsoil confirms the GPS has its corrections.
+Bring a **Starlink** when doing any surveying. LTE works in a pinch, but it is very slow
+and drops out.
 
 ## Pre-drive checklist
 
@@ -98,6 +100,7 @@ When you survey, the green **RTK FIX** in Subsoil confirms the GPS has its corre
 - [ ] Power connected
 - [ ] EM38 cable connected to the Getac
 - [ ] GPS on the roof, switched on, cable connected and secured
-- [ ] CORS coverage checked, or the second GPS packed as a base station
+- [ ] Starlink packed
+- [ ] Within CORS coverage, or a base station packed for an elevation survey
 - [ ] EM38 warmed up and calibrated (see [Calibration](04-calibration.md))
 - [ ] 9V battery fitted, and spares packed
