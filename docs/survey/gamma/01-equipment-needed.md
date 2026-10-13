@@ -26,8 +26,7 @@ box, pack against each list and check nothing has been left behind.
 ## Gamma console unit box (the gamma box)
 
 - [ ] Gamma console
-- [ ] Green data cable (gamma box to the Getac cradle)
-      `[CONFIRM: green RJ45 cable, or a DB9 cable as in the field notes?]`
+- [ ] Green data cable (RJ45, Cat 6 type, gamma box to the Getac cradle)
 - [ ] 9-pin gender changer
 - [ ] Black power cable (Anderson to gamma console plug), **short**
 - [ ] Black power cable (Anderson to gamma console plug), **long**
@@ -54,14 +53,15 @@ short power, grey (crystal pack), and green (data).*
 
 - [ ] GPS rover, **Ag Leader or Emlid**, with its power cable and antenna
 - [ ] Emlid only: portable charger bank and USB-C cable
-- [ ] **Second GPS configured as a base station**, only if there is no CORS coverage at the job
+- [ ] **Second GPS (another Emlid or an Ag Leader) configured as a base station**, with a
+      power source. Only needed for an **elevation survey** outside CORS coverage
 
 ![Ag Leader rover with attached cables and antenna](img/equipment-rover-case.png)
 *Ag Leader rover with its cables attached, and the antenna.*
 
 ## Also bring
 
-- [ ] **Starlink**
+- [ ] **Starlink**. LTE works in a pinch but is very slow and drops out.
 - [ ] Cable ties, tape or velcro, for securing cables
 - [ ] 12V battery (elevation surveys only, charged the night before)
 

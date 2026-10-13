@@ -21,8 +21,8 @@ field.
 | Three green boxes not lit, or no live data | The gamma unit needs time to configure, common after moving a long distance between jobs | Leave the unit connected and check back in a few minutes. See [Gamma Rig Setup](03-gamma-setup.md#7-verify-the-connection). |
 | RadAssist won't connect to the RS-602AG | Ignition off, or cabling not seated | Confirm the vehicle ignition is on, re-check the green data cable and the grey cable, then retry **Connect to Device**. |
 | Alarm for no GPS | GPS not plugged into the gamma box, or the rover has no fix | Check the rover cable is in the **gamma box**, not the Getac. Check Subsoil shows the green RTK FIX. |
-| No RTK FIX with an Emlid | Not connected to the CORS network | `[CONFIRM: what to check and how to reconnect.]` |
-| No RTK FIX and no CORS coverage | No base station | Set up the second GPS as a base station. `[CONFIRM: steps.]` |
+| No RTK FIX with an Emlid | Lost contact with the CORS network | Check the Emlid is on and the green RTK FIX shows. If you cannot get it back, contact Brandon. |
+| No elevation, or the elevation survey is outside CORS | No base station | Set up another Emlid or an Ag Leader as a base station on a clear high point, with a power source. It connects to the rover by LoRa. `[CONFIRM: steps.]` |
 | Data cable damaged | Cable broken in the brush or pinched | The gamma box **still records** on its own. Connect the GPS to Subsoil using the **TCP** option and carry on. Contact Brandon. |
 | Event Log doesn't show "USB HDD Detected" | USB not seated, or a different USB port | Reseat the thumbdrive in the gamma box's USB port and re-check the Event Log. |
 | Battery voltage low or elevation survey data missing | 12V battery not charged the night before | Confirm the 12V battery was charged; see [Introduction](00-introduction.md#key-requirements). |

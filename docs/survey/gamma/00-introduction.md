@@ -49,11 +49,11 @@ records over itself, so the data must be copied off to a USB after **every** sur
     - Confirm the job is staged in **PA Survey - General** by Deal ID before heading out,
       including the **gamma folder**. GIS prepares the boundary, folders and files. If
       anything is missing, contact GIS. Do not create your own.
-    - Bring the **Starlink**. You will need it.
-      `[CONFIRM: is TeamViewer and a working LTE connection on the Getac still required
-      as well?]`
-    - Check there is **CORS coverage** at the job. If there is none, you need a second GPS
-      configured as a base station. See [Gamma Rig Setup](03-gamma-setup.md#5-gps-and-corrections).
+    - Bring the **Starlink**. LTE works in a pinch, but it is very slow and drops out, so
+      take a Starlink when doing any surveying.
+    - About 90% of jobs are inside the **CORS network**. If you are doing an **elevation
+      survey** outside it, you need a second GPS set up as a base station. See
+      [Gamma Rig Setup](03-gamma-setup.md#5-gps-and-corrections).
 
 ## How to read it
 

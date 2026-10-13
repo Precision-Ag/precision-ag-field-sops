@@ -38,7 +38,8 @@ After waiting 2-3 minutes, the transfer should be complete. The Event Log will s
 ![Event Log showing USB HDD Backup Done and Unmount Usb](img/radassist-event-log-backup-done.png)
 *Backup done and USB unmounted, safe to remove.*
 
-`[CONFIRM: a new USB each survey day, or the same drive reused after the files are copied off?]`
+The USB thumbdrive is reused. Once you have uploaded the files and confirmed they are
+there, empty the USB.
 
 ## 3. Copy the file to the job folder
 
@@ -52,8 +53,9 @@ column.
 ![File Explorer showing the RSX UTC folders on the USB](img/usb-port-gamma-console-with-files.png)
 *USB thumbdrive in the Getac, with today's RSX folder.*
 
-Copy this file into the job's **Gamma** folder in **PA Survey - General**, into a folder
-named with today's date so each day stays separate.
+Copy this file into the job's **Gamma** folder in **PA Survey - General** (`PA Survey -
+General - <Deal ID>`, then `Gamma`), into a folder named with today's date so each day
+stays separate.
 
 ![Copying today's file to the job folder](img/rsx-folder-copy-source.png)
 *Find today's RSX folder by its UTC timestamp and copy it.*
@@ -97,13 +99,10 @@ Under **Output format**, select **ESRI Shape File (SHP)**.
 *Output format: ESRI Shape File (SHP).*
 
 Under **File Name**, click the **…** button and browse to the job's **Gamma** folder in
-**PA Survey - General**. Name the file **date + deal ID + grower name + gamma export**.
+**PA Survey - General** (`PA Survey - General - <Deal ID>`, then `Gamma`). Name the file **date + deal ID + grower name + gamma export**.
 
 !!! example
     `13-08 1019999 Test Grower gamma export`
-
-`[CONFIRM: exact folder. The Gamma folder in the job folder, or a Survey Data location next
-to the EM CSV? Confirm with GIS before relying on this.]`
 
 ![Exported File Name save dialog](img/radassist-export-filename.png)
 *Save with the date + deal ID + grower name + gamma export naming convention.*
@@ -146,6 +145,9 @@ That's it, there is no zip and no email. The shapefile is already inside the job
 **PA Survey - General** folder, which syncs automatically. Before you leave, confirm the
 `.shp`, `.dbf` and `.shx` files are actually there, and that the sync status shows "up to
 date" rather than pending.
+
+When you have confirmed the files are uploaded, **empty the USB thumbdrive** so it is
+ready for the next survey day.
 
 !!! warning "WARNING"
     A file that exists locally is not the same as a file GIS can see. If the sync-status

@@ -71,9 +71,8 @@ through the passenger window on a ute to avoid pinching.
 ## 4. Connect the Getac
 
 Plug the **green data cable** into the bottom of the Getac cradle on one end and the
-gamma box on the other. This is where the gamma data, and the GPS signal, reach the
-Getac.
-`[CONFIRM: green RJ45 cable, or a DB9 cable as in the field notes?]`
+gamma box on the other. This is an RJ45 (Cat 6 type) cable. It is where the gamma data,
+and the GPS signal, reach the Getac.
 
 <div class="grid cards" markdown>
 
@@ -100,9 +99,8 @@ GPS goes into the Getac. The data cable then carries the GPS signal across to Su
 2. Place the rover on the **roof of the vehicle** (the metal plate for the Polaris) and
    connect its power. On the Polaris use the Anderson plug in the back tray.
 3. Plug the rover's 9-pin GPS cable into the gamma box, with the gender changer
-   attached to the gamma box.
-   `[CONFIRM: is this now a single GPS cable into the gamma box only? The August procedure
-   had two rover cables, 1Hz to the gamma box and 5Hz to the Getac.]`
+   attached to the gamma box. The rover is a **single cable** into the gamma box. Nothing
+   from the rover goes into the Getac.
 4. Route the cable through the passenger side window. Secure it with cable ties, tape or
    velcro so it cannot snag or be pinched, and tighten the connector screws lightly to
    hold it in place.
@@ -119,14 +117,14 @@ GPS goes into the Getac. The data cable then carries the GPS signal across to Su
 
 ### Corrections
 
-- **Emlid:** it connects to the **CORS network** to get its corrections. Check it shows
-  connected before you start.
-  `[CONFIRM: how the Emlid reaches the CORS network in the field (Starlink or a hotspot)
-  and what the tech checks to see it is connected.]`
-- **No CORS coverage:** you need a **second GPS configured as a base station**. Set it up
-  and check the rover is receiving its corrections.
-  `[CONFIRM: how the base station is set up, who configures it, where it sits, and
-  whether the Ag Leader uses CORS or the base.]`
+- **Emlid:** it reaches the **CORS network** for its corrections. About 90% of jobs are
+  inside CORS coverage. Check the green **RTK FIX** shows before you start. If you lose
+  contact with CORS, contact Brandon.
+- **Elevation survey outside CORS:** you need a **base station**. Set up another Emlid or
+  an Ag Leader as the base and give it a power source. Put it on a clear high point. It
+  connects to the rover by **LoRa** to provide the elevation. A base station is only
+  needed for elevation.
+  `[CONFIRM: the base station setup steps, and how the Ag Leader gets its corrections.]`
 
 ## 6. Connect in RadAssist
 
@@ -180,8 +178,11 @@ work the same as an EM survey.
 ![Setup sheet with the Quick Start row highlighted](img/subsoil-setup-quick-start.png)
 *Setup, then Quick Start, then pick the boundary file from the job's folder.*
 
-`[CONFIRM: does Subsoil write its own survey file during a gamma survey, or is it GPS and
-guidance only? Subsoil also warns when it is not receiving data.]`
+!!! note "NOTE"
+    Subsoil does not record the gamma data. It gives you the GPS fix and the guidance, and
+    warns you if data is not being received. The gamma data is recorded by the gamma box
+    and exported with RadAssist, see
+    [Data Collection & Export](04-data-collection.md).
 
 ## 9. Survey the paddock
 
